@@ -24,8 +24,8 @@ function Landing() {
     ];
 
     const landingButtons: { type: 'main'; content: string; onClick?: () => void }[] = [
-        // { type: 'main', content: 'Latest work on GitHub', onClick: () => window.open('https://github.com/davidscali', '_blank') },
-        // { type: 'main', content: 'Visit my LinkedIn profile', onClick: () => window.open('https://www.linkedin.com/in/david-scali/', '_blank') },
+        { type: 'main', content: 'Latest work on GitHub', onClick: () => window.open('https://github.com/davidscali', '_blank') },
+        { type: 'main', content: 'Visit my LinkedIn profile', onClick: () => window.open('https://www.linkedin.com/in/david-scali/', '_blank') },
         // { 
         //     type: 'main', 
         //     content: "Call Me",
