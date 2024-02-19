@@ -10,7 +10,7 @@ function Footer() {
 
     const footerButtons = [
         { type: 'main', content: 'Email Me', onClick: () => window.open('mailto:scali0506@gmail.com') },
-        // { testid: 'Telegram', type: 'main', content: 'Telegram', onClick: () => window.open('https://telegram.me/yangxng') },
+        { testid: 'Telegram', type: 'main', content: 'Telegram', onClick: () => window.open('https://telegram.me/DavidScali') },
         {
             type: 'main', content: 'LinkedIn', onClick: () => window.open('https://www.linkedin.com/in/david-scali/')
         }
