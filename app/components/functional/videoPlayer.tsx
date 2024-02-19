@@ -18,14 +18,14 @@ function VideoPlayer() {
         className='rounded-xl mt-9'
         draggable={false}
         allow="fullscreen; loop"
-        onLoad={() => {
-            const iframe = document.querySelector('iframe');
-            if (iframe) {
-              iframe.contentWindow.postMessage('play', '*');
-            } else {
-              console.error('Failed to find iframe element.');
-            }
-          }}
+        // onLoad={() => {
+        //     const iframe = document.querySelector('iframe');
+        //     if (iframe) {
+        //       iframe.contentWindow.postMessage('play', '*');
+        //     } else {
+        //       console.error('Failed to find iframe element.');
+        //     }
+        //   }}
       ></iframe>
 
         <iframe
