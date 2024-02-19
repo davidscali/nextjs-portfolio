@@ -40,7 +40,7 @@ function Footer() {
             <div className="footer-text-subsubtitle relative mt-8 mb-8 text-xs opacity-100 text-center">
                 <div className="opacity-80">
                     <div data-testid="footer-copyright" className="mb-1"> © 2023 YANGXDEV</div>
-                    <div data-testid="footer-email" className="mb-1">scali0506@gmail.com</div>
+                    <div className="mb-1">scali0506@gmail.com</div>
                     <div data-testid="footer-location" className="mb-1">Jerusalem, Israel → What&apos;s next?</div>
                 </div>
                 <Image
