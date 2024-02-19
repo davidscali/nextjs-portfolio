@@ -7,18 +7,23 @@ import Button from '@ui/Button';
 import Logo from '@logos/mylogo1.png';
 
 function Footer() {
+
     const footerButtons = [
+        { type: 'main', content: 'Email Me', onClick: () => window.open('mailto:scali0506@gmail.com') },
+        // { testid: 'Telegram', type: 'main', content: 'Telegram', onClick: () => window.open('https://telegram.me/yangxng') },
         {
-            type: 'main',
-            content: 'LinkedIn',
-            onClick: () => window.open('https://www.linkedin.com/in/david-scali/')
+            type: 'main', content: 'LinkedIn', onClick: () => window.open('https://www.linkedin.com/in/david-scali/')
         }
     ];
 
     const isMobile = useIsMobile();
 
     return (
-        <div id="Contact Me" className="footer pt-20 flex items-center flex-col justify-center select-none mx-6 md:mx-20 lg:mx-40">
+        <div id="Contact Me" className="footer pt-20 flex items-center flex-col justify-center select-none
+            mx-6
+            md:mx-20
+            lg:mx-40
+        ">
             <div className="footer-text-title text-center text-3xl font-bold">
                 LET&apos;S GET IN TOUCH
             </div>
@@ -32,7 +37,20 @@ function Footer() {
                     <React.Fragment key={index}>
                         {index > 0 && <span className="divider mx-2"></span>}
                         <div className={`button-mobile-wrapper ${isMobile ? 'mb-2' : ''}`}>
-                            <Button type={button.type as 'main'} content={button.content} onClick={button.onClick} />
+                            {button.content === "Email Me" ? (
+                                <div data-testid="Email Me" className={`footer-button-email w-fit py-2 px-4 font-light border border-slate-500 hover:bg-accent hover:text-background ease-in-out duration-200}`}>
+                                    <a
+                                        draggable="false"
+                                        href="mailto:scali0506@gmail.com"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Email Me
+                                    </a>
+                                </div>
+                            ) : (
+                                <Button type={button.type as 'main'} content={button.content} onClick={button.onClick} />
+                            )}
                         </div>
                     </React.Fragment>
                 ))}
@@ -40,7 +58,7 @@ function Footer() {
             <div className="footer-text-subsubtitle relative mt-8 mb-8 text-xs opacity-100 text-center">
                 <div className="opacity-80">
                     <div data-testid="footer-copyright" className="mb-1"> © 2023 YANGXDEV</div>
-                    <div className="mb-1">scali0506@gmail.com</div>
+                    <div data-testid="footer-email" className="mb-1">scali0506@gmail.com</div>
                     <div data-testid="footer-location" className="mb-1">Jerusalem, Israel → What&apos;s next?</div>
                 </div>
                 <Image
