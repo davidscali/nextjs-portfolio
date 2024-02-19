@@ -32,7 +32,7 @@ describe('Landing', () => {
 
         expect(screen.getByRole('link', { name: 'Email Me' })).toHaveAttribute(
             'href',
-            'mailto:yangxdev@gmail.com'
+            'mailto:scali0506@gmail.com'
         )
     });
 });
