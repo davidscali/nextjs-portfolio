@@ -5,20 +5,24 @@ import PortfolioElement from '@ui/PortfolioElement';
 function Portfolio() {
     const experiences = [
         {
+            title: 'Prime Minister Office',
+            description: 'My first job as a Data Analyst. Here I gained invaluable experience in teamwork and delivering high-quality, data-driven insights for informed decision-making.',
+        },
+        {
+            title: 'The Hebrew Language Academy',
+            description: 'My first industry footprint. I learned the mindset of a business and how to think outside the box, The significance of cooperation and building relationships with Hebrew professors for digital endeavors. ',
+        },
+        {
             title: 'Education',
-            description: 'Studied Computer Science at the University of Milan. Here I learned the fundamentals of computer science and how to think like a software engineer.',
+            description: 'Studied Industrial Engineering at Azrieli - College of Engineering. Here I learned the fundamentals about the world of Information Systems and how as an industrial enginerr i need to integrating the different disciplines to optimize processes across industrie.',
         },
         {
-            title: 'Deloitte Digital',
-            description: 'My first job as a Software Engineer. Here I learned how to work in a team and how to deliver high-quality software solutions.',
+            title: 'Academic Projects',
+            description: 'One of the strengths I acquired here, is reflected in the teamwork across thr various projects and the parquetical tools i used.',
         },
         {
-            title: 'Frontend Mentor',
-            description: 'Where design meets code. Here I honed my frontend development skills by bringing thought-provoking website designs to life.',
-        },
-        {
-            title: 'University Projects',
-            description: 'My first projects in software development. Here I learned to work in a team and to deliver software solutions following deadlines and specific requirements.',
+            title: "Here's a little more about me",
+            description: 'Let me share a bit about myself and what I enjoy doing outside of work!',
         },
     ];
 

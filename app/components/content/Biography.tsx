@@ -5,7 +5,7 @@ import Button from '@ui/Button';
 function Biography() {
 
     const biographyButtons: { type: 'main'; content: string; onClick?: () => void }[] = [
-        { type: 'main', content: 'LinkedIn Profile', onClick: () => window.open('https://www.linkedin.com/in/yangxng/', '_blank') },
+        { type: 'main', content: 'LinkedIn Profile', onClick: () => window.open('https://www.linkedin.com/in/david-scali/', '_blank') },
     ];
 
     return (
@@ -23,13 +23,13 @@ function Biography() {
                 ">
                     <p>
                         <strong>Academic Journey</strong><br />
-                        After completing my high school education in Information Technology, I pursued my passion for computers and enrolled in the <em>Computer Science</em> program at University of Milan-Bicocca. During my time there, I gained a solid foundation in programming, algorithm, and software development methodologies
+                        Completing my Bachelor's degree was a pivotal milestone in my journey. As an <em>industrial and management engineer</em>, I came to appreciate how the synergy between people and technology defines our era. Through my specialization in information systems, I acquired invaluable knowledge and skills that I applied across a spectrum of technological platforms    
                     </p>
 
                     <p>
                         <br />
                         <strong>Current Job</strong><br />
-                        I am currently working as a Full-stack Developer at Deloitte Digital, where I contribute to the development of a globally used <em>e-commerce booking platform</em>. In this position, I have been fortunate to collaborate with a team of talented professionals, enhancing my skills in both front-end and back-end development.
+                        As a Data Analyst, I am eager to create value from data. I am currently working at Prime Minister's Office where I contribute through analyses to ensure equitable representation of diverse populations in the civil service. 
                     </p>
 
                     <div className="text-base my-4">

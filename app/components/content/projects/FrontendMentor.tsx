@@ -22,7 +22,7 @@ function FrontendMentor() {
     const buttonDirection = 'justify-center';
 
     return (
-        <div id='Frontend Mentor' className="frontend-mentor py-20 border-b select-none border-slate-700 max-w-5xl
+        <div id='FrontendMentor' className="frontend-mentor py-20 border-b select-none border-slate-700 max-w-5xl
             mx-6
             md:mx-20
             lg:mx-40

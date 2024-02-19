@@ -9,13 +9,16 @@ import Landing from '@content/Landing';
 import Portfolio from '@content/Portfolio';
 import CoverLetterMaker from '@projects/CoverLetterMaker';
 import CurriculumVitae from '@projects/CurriculumVitae';
-import DeloitteDigital from '@projects/DeloitteDigital';
+import PrimeMinisterOffice from '@/app/components/content/projects/PrimeMinisterOffice';
+import TheHebrewAcademy from '../content/projects/TheHebrewAcademy';
 import Education from '@projects/Education';
-import FrontendMentor from '@projects/FrontendMentor';
 import UniversityProjects from '@projects/UniversityProjects';
 import Footer from '@ui/Footer';
 import Header from '@ui/Header';
 import ScrollToTopButton from '@ui/ScrollToTopButton';
+import AboutMe from '../content/projects/AboutMe';
+//import FrontendMentor from '@/app/components/content/projects/FrontendMentor';
+
 
 export default function HomePage() {
 
@@ -52,14 +55,16 @@ export default function HomePage() {
             <Landing />
             <Biography />
             <Portfolio />
-            <CurriculumVitae />
+            <PrimeMinisterOffice /> 
+            <TheHebrewAcademy />       
             <Education />
-            <DeloitteDigital />
-            <FrontendMentor />
             <UniversityProjects />
-            {/* <CoverLetterMaker /> */}
+            <AboutMe/>
+            <CurriculumVitae />
+            <CoverLetterMaker />
             <Footer />
             <ScrollToTopButton />
+            {/* <FrontendMentor /> */}
         </div>
     );
 }

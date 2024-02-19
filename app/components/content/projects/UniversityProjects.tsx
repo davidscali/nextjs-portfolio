@@ -5,25 +5,23 @@ import { useMediaQuery } from 'react-responsive';
 import withFadeIn from '@functional/withFadeIn';
 import { useIsMobile } from '@functional/useIsMobile';
 import Button from '@ui/Button';
-import SDIndex800 from '@university/SD_index_800.gif';
-import SDIndex600 from '@university/SD_index_600.gif';
-import SDTransfer800 from '@university/SD_transfer_800.gif';
-import SDTransfer600 from '@university/SD_transfer_600.gif';
-import PDMSmooviePreview from '@university/PDM_smoovie_preview.png';
-import PDMSmooviePreviewMobile from '@university/PDM_smoovie_preview_mobile.png';
+import JerusalemOfDigital1 from '@university/Jerusalem_Of Digital_1.png';
+import JerusalemOfDigital2 from '@university/Jerusalem_Of Digital_2.png';
+import VideoPlayer from '../../functional/videoPlayer';
+import DashboardBI from '../../functional/dashbord';
+
 
 function UniversityProjects() {
-
+    
     const isMobile = useIsMobile();
 
     return (
-        <div id="University Projects" className="university-projects max-w-5xl py-20 border-b select-none border-slate-700 
+        <div id="Academic Projects" className="university-projects max-w-5xl py-20 border-b select-none border-slate-700 
             mx-6
             md:mx-20
             lg:mx-40
             ">
-            <h1 className="text-3xl text-left text-white font-bold">University Projects</h1>
-            {/* <h3 className='text-lg text-left text-white mt-2'>From September 2020 to July 2023</h3> */}
+            <h1 className="text-3xl text-left text-white font-bold">My Projects</h1>
             <br />
             {/* Having enrolled in a Computer Science degree at the University of Milan-Bicocca, I had the opportunity to work on some interesting projects. Here are the most relevant ones:
             <br />
@@ -31,31 +29,46 @@ function UniversityProjects() {
 
             <div className="fm-row flex flex-col">
                 <div className="fm-col2 flex-1 flex justify-center">
+                    
+                <div className="fm-col1 flex-1 text-start mt-4">
+                    <h2 className="mb-1 text-2xl font-bold text-white">
+                    Data Analyst for the 'Jerusalem Of Digital' project 
+                    </h2>
+                    <h3 className="mb-4 text-lg text-white">June 2022 to October 2023</h3>
+                    <div className="text-mm mt-2 ">
+                    The challenges faced by small traditional businesses in adapting to the digital world were exacerbated by the COVID-19 pandemic, leading to closures while larger companies seized unexpected opportunities. Recognizing this trend, the Jerusalem Municipality initiated a project to digitalize small businesses in the city. the municipality collaborated with the Department of Industrial Engineering and Management at Azrieli College to address past failures. Through the "Jerusalem of Digital" initiative, students provided personalized support to businesses, including website development and marketing strategies, aiming to empower owners to operate their online presence independently.
+                        <ul style={{ listStyleType: 'disc' }} className="ml-8 mt-3">
+                            <li>Analyzing revenue and income data to determine project success,aiding in the development of a case study.(Excel)</li>
+                            <li className="mt-1.5">Provided one-on-one mentorship to 15 businesses and Managed website performance tracking through Google Analytics.</li> 
+                            <li className="mt-1.5">Led digitization for 120 businesses in Jerusalem via the Wobil development platform</li>
+                            <li className="mt-1.5"> Participation and presentation in project competitions at 'the International Conference on Industrial Engineering in the Era of Digital Systems.</li>                              
+                        </ul>
+                    </div>
                     {!isMobile ? ( //desktop
-                        <div className={`img-desktop max-w-2xl`}>
+                        <div className={`img-desktop max-w-2xl mx-auto mt-9`}>
                             <Image
-                                src={SDIndex800.src}
-                                alt="Distributed Systems Home Demo GIF 800px"
+                                src={JerusalemOfDigital1.src}
+                                alt="JerusalemOfDigital1"
                                 width={5000}
                                 height={0}
-                                className='w-full h-auto rounded-xl'
+                                className='w-full h-auto -center rounded-xl'
                                 draggable={false}
                                 priority={true}
-                            />
+                            />                     
                             <Image
-                                src={SDTransfer800.src}
-                                alt="Disitributed Systems Transfer Demo GIF 800px"
+                                src={JerusalemOfDigital2.src}
+                                alt="JerusalemOfDigital2"
                                 width={5000}
                                 height={0}
                                 className='w-full h-auto rounded-xl mt-6'
                                 draggable={false}
                                 priority={true}
-                            />
+                            />                 
                         </div>
                     ) : ( //mobile
                         <div className={`img-mobile max-w-full`}>
                             <Image
-                                src={SDIndex600.src}
+                                src={JerusalemOfDigital1.src}
                                 alt="Distributed Systems Home Demo GIF 600px"
                                 width={5000}
                                 height={0}
@@ -64,7 +77,7 @@ function UniversityProjects() {
                                 priority={true}
                             />
                             <Image
-                                src={SDTransfer600.src}
+                                src={JerusalemOfDigital2.src}
                                 alt="Disitributed Systems Transfer Demo GIF 600px"
                                 width={5000}
                                 height={0}
@@ -73,96 +86,94 @@ function UniversityProjects() {
                                 priority={true}
                             />
                         </div>
-                    )}
-                </div>
-                <div className="fm-col1 flex-1 text-start mt-4">
-                    <h2 className="mb-1 text-2xl font-bold text-white">
-                        Distributed Systems Course Project: Flask Banking System
-                    </h2>
-                    <h3 className="mb-4 text-lg text-white">June 2022</h3>
-                    <div className="text-sm">
-                        For the Distributed Systems course, our task was to develop a website that would allow users to manage their bank accounts. The website had to be developed using the Flask framework and had to be able to communicate with a server-side API and a database. The website had to be able to perform the following operations:
-                        <ul style={{ listStyleType: 'disc' }} className="ml-6">
-                            <li>Search a user by ID</li>
-                            <li>View user balance</li>
-                            <li>View user transactions</li>
-                            <li>Make a deposit</li>
-                            <li>Make a withdrawal</li>
-                            <li>Make a transfer to another user</li>
-                        </ul>
-                    </div>
-                    <div className="row mt-4 flex flex-nowrap justify-left">
-                        <Button type="main" content="View Code"
-                            onClick={() => window.open('https://github.com/washedDragonyx/flask-banking-system')
+                    )} 
+                               <div className="row mt-5 flex flex-nowrap justify-center">
+                        <Button type="main" content="View More"
+                            onClick={() => window.open('https://drive.google.com/drive/folders/1zV_xHsKqJx8KmzKhQwPPvoO39vjXbGFr?usp=sharing')
                             } />
-                        {/* <div className="mx-2"></div>
-                        <Button type="main" content="Preview Site"
-                            onClick={() => window.open('https://yangxdev.github.io/fe2-faq-accordion/')}
-                        /> */}
                     </div>
+                </div>        
                 </div>
             </div>
             <br /><br />
 
             <div className="fm-row flex flex-col">
-                <div className="fm-col2 flex-1 flex justify-center">
-                    {!isMobile ? (
-                        <div className={`img-desktop max-w-2xl`}>
-                            <Image
-                                src={PDMSmooviePreview.src}
-                                alt="PDM Smoovie Preview"
-                                width={5000}
-                                height={0}
-                                className='w-full h-auto rounded-xl'
-                                draggable={false}
-                                priority={true}
-                            />
-                        </div>
-                    ) : (
-                        <div className={`img-mobile max-w-screen`}>
-                            <Image
-                                src={PDMSmooviePreviewMobile.src}
-                                alt="PDM Smoovie Preview"
-                                width={5000}
-                                height={0}
-                                className='w-full h-auto rounded-xl'
-                                draggable={false}
-                                priority={true}
-                            />
-                        </div>
-                    )}
-                </div>
                 <div className="fm-col1 flex-1 text-start mt-4">
+               
                     <h2 className="mb-1 text-2xl font-bold text-white">
-                        Mobile Devices Programming Project: Smoovie
-                    </h2>
-                    <h3 className="mb-4 text-lg text-white">August 2022 to September 2022</h3>
-                    <div className="text-sm">
-                        For the Mobile Devices Programming course, our task was to develop an Android application that would allow users to search for movies and TV shows. The application had to be developed using the Android Studio IDE and had to be able to communicate with a server-side API. The application had to be able to perform the following operations:
-                        <ul style={{ listStyleType: 'disc' }} className="ml-6">
-                            <li>Search for movies according to user&apos;s criteria</li>
-                            <li>Real-time information gathering thanks to TMDB&apos;s API</li>
-                            <li>Local saving of user&apos;s favorite movies</li>
-                            <li>Authentication and account management</li>
+                    Inventory management system for Lightricks
+                    </h2> 
+                    <h3 className="mb-4 text-lg text-white">August 2021 to March 2023</h3>
+                    <div className="text-mm">
+                    This project focuses on creating an inventory management system for small-medium businesses (SMBs). While large companies already have extensive platforms for their needs, SMBs lack the financial resources for such solutions. This project aims to address these gaps by offering tailor-made solutions for B2B, B2C, and B2G business models of small companies. By understanding the distinct needs and planning systems of SMBs, this project strives to provide an accessible and effective inventory management solution to Lightricks company.
+                        <ul style={{ listStyleType: 'disc' }} className="ml-8 mt-3"> 
+                            <li>Application development, both client-side and server-side (React, Node.js) </li>
+                            <li className="mt-1.5">Development of an algorithm for inventory management</li>
+                            <li className="mt-1.5">Drafting characterization documents and functional reports aligned with business requirements.</li>
+                            <li className="mt-1.5">Leading a 10-member team in this project </li>
                         </ul>
                     </div>
                     <div className="row mt-4 flex flex-wrap justify-left">
                         <div className={`button-mobile-wrapper ${isMobile ? 'mb-2' : ''}`}>
                             <Button type="main" content="View Code"
-                                onClick={() => window.open('https://github.com/Enkosz/smoovie')
+                                onClick={() => window.open('https://github.com/davidscali/DAMA-application')
                                 } />
                         </div>
                         <div className={`mx-2`}></div>
                         <div className={`button-mobile-wrapper ${isMobile ? 'mb-2' : ''}`}>
-                            <Button type="main" content="View Docs (IT)"
-                                onClick={() => window.open("/PDM_smoovie_documentation.pdf/")}
+                            <Button type="main" content="View The System"
+                                onClick={() => window.open("https://dama-client-vercel.vercel.app/inventory")}
                             />
                         </div>
                     </div>
                 </div>
             </div>
+            <div className="fm-col2 flex-1 flex justify-center mt-9">
+                    {!isMobile ? (           
+                        <div className={`img-desktop max-w-2xl`}>
+                            <VideoPlayer
+                                                      
+                            />
+                        </div>
+                    ) : (
+                        <div className={`img-mobile max-w-screen`}>
+        
+                        </div>
+                    )}
+            </div> 
+
+                    <div className="fm-col1 flex-1 text-start mt-9">
+                    <h2 className="mb-1 text-2xl font-bold text-white">
+                    Engineered a BI dashboard for 'Walmart' 
+                    </h2>
+                    <h3 className="mb-4 text-lg text-white">Symmetrical project, developed during 2023</h3>
+                    <div className="text-mm mt-2 ">
+                    Created a Power BI dashboard to showcase essential strategies aimed at improving company efficiency.
+                        <ul style={{ listStyleType: 'disc' }} className="ml-8 mt-3">
+                            <li>Developed dashboards utilizing SQL and DAX</li>
+                            <li className="mt-1.5">Implemented DRISP-DM methodology and integrated end-to-end ETL processes.</li> 
+                            <li className="mt-1.5">Analyzed company's business needs (Methodically).</li>
+                            <li className="mt-1.5">Connected to college server, practicing client-side and server-side programming.</li>                              
+                        </ul>
+                    </div>
+                    {!isMobile ? ( //desktop
+                        <div className={`img-desktop max-w-3xl mx-auto mt-9`}> 
+                             <h2 className="mb-2 text-lg font-bold">Power BI Dashboard</h2>
+                           <DashboardBI
+                           /> 
+
+                        </div>
+                    ) : ( //mobile
+                        <div className={`img-mobile max-w-screen`}>
+                            <h2>Power BI Dashboard</h2>
+                           <DashboardBI
+                           /> 
+                        </div>
+                    )} 
+                    </div>
         </div>
     );
 }
+
 
 export default withFadeIn(UniversityProjects);

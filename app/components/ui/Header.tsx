@@ -7,11 +7,12 @@ import Button from '@ui/Button';
 
 export default function Header() {
     const menuButtons: { type: 'header' | 'begin' | 'logo'; content: string; onClick?: () => void }[] = [
-        { type: 'header', content: 'LinkedIn', onClick: () => window.open('https://www.linkedin.com/in/yangxng/', '_blank') },
-        // { type: 'header', content: 'GitHub', onClick: () => window.open('https://github.com/yangxdev', '_blank') },
-        { type: 'header', content: 'CV', onClick: () => window.open('cv/XIANG_CV.pdf', '_blank') },
+        { type: 'header', content: 'LinkedIn', onClick: () => window.open('https://www.linkedin.com/in/david-scali/', '_blank') },
+        { type: 'header', content: 'CV', onClick: () => window.open('cv/David Cohen Scali - CV.pdf', '_blank') },
+        { type: 'header', content: 'GitHub', onClick: () => window.open('https://github.com/davidscali?tab=repositories', '_blank') },
+        
     ];
-
+    
     const isMobile = useIsMobile();
     const isDesktop = useIsDesktop();
 
@@ -24,8 +25,8 @@ export default function Header() {
             )} 
             w-full top-0 py-5 px-6 z-10`}>
             <div className="row flex flex-nowrap justify-between items-center">
-                <Button testid="header-title" type="logo" content="YANGXDEV" onClick={() => {
-                    // window.location.reload(); window.scrollTo(0, 0); 
+                <Button testid="header-title" type="logo" content="David Cohen Scali" onClick={() => {
+                    //window.location.reload(); window.scrollTo(0, 0); 
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 }} />
                 <div className="menu flex flex-nowrap">

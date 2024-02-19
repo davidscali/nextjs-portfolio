@@ -20,12 +20,12 @@ function CurriculumVitae() {
             </div>
             <div className="flex justify-start">
                 {isDesktop ? (
-                    <embed src="https://nextjs-cv-snowy.vercel.app/" style={{ width: '90vw', height: '111.6vh' }} />
+                    <embed src="https://nextjs-cv-main.vercel.app/" style={{ width: '90vw', height: '111.6vh' }} />
                 ) : (
-                    <>
-                        <Button type="main" content="View CV" onClick={() => window.open('cv/XIANG_CV.pdf')} />
+                    <> 
+                        <Button type="main" content="View CV" onClick={() => window.open('https://nextjs-cv-main.vercel.app/')} />
                         <div className="mx-2"></div>
-                        <Button type="main" content="View Repository" onClick={() => window.open('https://github.com/yangxdev/nextjs-cv/tree/develop')} />
+                        <Button type="main" content="View Repository" onClick={() => window.open('https://github.com/davidscali/nextjs-cv')} />
                     </>
                 )}
             </div>
