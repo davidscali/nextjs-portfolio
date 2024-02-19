@@ -32,7 +32,7 @@ function Landing() {
         //     onClick: () => window.location.href = 'tel:+393342229699' 
         // },
         { type: 'main', content: "Read my journey" },
-        { type: 'main', content: 'Email Me', onClick: () => window.location.href = 'mailto:scali0506@gmail.com' },
+        //{ type: 'main', content: 'Email Me', onClick: () => window.location.href = 'mailto:scali0506@gmail.com' },
     ];
 
     const isMobile = useIsMobile();
@@ -87,10 +87,10 @@ function Landing() {
                     </div>
                     <div className="landing-button-email whitespace-nowrap w-fit mb-4 py-2 px-4 font-light border border-slate-500 hover:bg-accent hover:text-background ease-in-out duration-200 max-w-fit">
                         <a
-                            draggable="false"
-                            href="mailto:scali0506@gmail.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            // draggable="false"
+                            // href="mailto:scali0506@gmail.com"
+                            // target="_blank"
+                            // rel="noopener noreferrer"
                         >
                             Email Me
                         </a>

@@ -9,7 +9,7 @@ import Logo from '@logos/mylogo1.png';
 function Footer() {
 
     const footerButtons = [
-        { type: 'main', content: 'Email Me', onClick: () => window.open('mailto:scali0506@gmail.com') },
+        //{ type: 'main', content: 'Email Me', onClick: () => window.open('mailto:scali0506@gmail.com') },
         // { testid: 'Telegram', type: 'main', content: 'Telegram', onClick: () => window.open('https://telegram.me/yangxng') },
         {
             type: 'main', content: 'LinkedIn', onClick: () => window.open('https://www.linkedin.com/in/david-scali/')
@@ -40,10 +40,10 @@ function Footer() {
                             {button.content === "Email Me" ? (
                                 <div data-testid="Email Me" className={`footer-button-email w-fit py-2 px-4 font-light border border-slate-500 hover:bg-accent hover:text-background ease-in-out duration-200}`}>
                                     <a
-                                        draggable="false"
-                                        href="mailto:scali0506@gmail.com"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
+                                        // draggable="false"
+                                        // href="mailto:scali0506@gmail.com"
+                                        // target="_blank"
+                                        // rel="noopener noreferrer"
                                     >
                                         Email Me
                                     </a>
