@@ -70,7 +70,7 @@ describe('Footer', () => {
         expect(getByTestId('footer-email')).toBeInTheDocument();
         expect(getByTestId('footer-location')).toBeInTheDocument();
 
-        const logoImage = getByAltText('YX Logo') as HTMLImageElement;
+        const logoImage = getByAltText('David Logo') as HTMLImageElement;
         expect(logoImage).toBeInTheDocument();
         // expect(logoImage.src).toEqual(LogoSmall.src);
 
