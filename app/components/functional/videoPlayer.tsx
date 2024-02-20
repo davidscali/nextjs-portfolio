@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logos from '@university/Dama_logo.png';
+
 
 
 function VideoPlayer() {
