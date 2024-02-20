@@ -19,7 +19,7 @@ function Landing() {
         "Html & CSS",
         "Java",
         "Agile Methodologies",
-        "UX"
+        "UX (Figma & Axure)"
     ];
 
     const landingButtons: { type: 'main'; content: string; onClick?: () => void }[] = [

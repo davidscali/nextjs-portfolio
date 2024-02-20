@@ -12,23 +12,23 @@ function PrimeMinisterOffice() {
             <h2 className="text-2xl text-left text-white font-bold mt-2"> Prime Minister's Office</h2>
             <h3 className='text-lg text-left text-white mt-2'>From October 2022</h3>
             <br />
-            <p className="text-lg text-left"> In my role on the Control team, I optimize governmental surveys to assess the qualities of public service employees, offering actionable insights. Additionally, I analyze and enhance Information Systems within the governmental portal and construct surveys to efficiently delegate tasks to government offices. </p>
+            <p className="text-lg text-left"> In my role on the Control team, I optimize governmental surveys to assess the qualities of public service employees, offering actionable insights. Additionally, I analyzed and enhance information systems within the governmental portal and construct surveys to efficiently delegate tasks to government offices. </p>
             <div className="text-mm text-left">
                 <div className="text-base font-bold mt-4">
                     Project:
                 </div>
                 <ul style={{ listStyleType: 'disc' }} className="ml-6">
-                    <li> Human Capital Metrics Development (Gender Equality, Employee Evaluation, etc.)</li>
+                    <li> Human Capital Metrics Development (Gender Equality, Occupational versatility, etc.)</li>
                     <li> Prototyping employee Portal systems <strong>90,000 employees</strong> </li>
-                    <li> Survey Creation & Office Oversight <strong>35 Offices</strong></li>
-                    <li> Dashboard Development (Internal KPI Utilization)</li>
+                    <li> Survey creation & Office oversight <strong>35 Offices</strong></li>
+                    <li> Dashboard Development (for Internal KPI utilization)</li>
                 </ul>
 
                 <div className="text-base font-bold mt-4">Technologies: </div>
                 <ul style={{ listStyleType: 'disc' }} className="ml-6">
                     <li><strong>Excel</strong> (VBA)</li>
                     <li><strong>paython</strong> (Pandas & Numpay)</li>
-                    <li><strong>SQL</strong></li>
+                    <li><strong>SQL</strong>(PowerBi) </li>
                     <li><strong>Agile</strong> (Canva,Zoho Creator,Figma)</li>
                 </ul>
 

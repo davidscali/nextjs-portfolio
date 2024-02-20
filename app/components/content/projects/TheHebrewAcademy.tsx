@@ -12,7 +12,8 @@ function TheHebrewAcademy() {
             <h2 className="text-2xl text-left text-white font-bold mt-2"> The Hebrew Language Academy</h2>
             <h3 className='text-lg text-left text-white mt-2'> August 2021 - September 2022</h3>
             <br />
-            <p className="text-lg text-left"> In my initial role, I gained practical insights into the realm of information systems, spanning from client interactions to server connectivity. I acquired foundational knowledge and hands-on experience with fundamental analysis and characterization tools. Furthermore, I honed my professional writing and communication skills, emphasizing teamwork and collaboration with key stakeholders within the organization. </p>           
+            <p className="text-lg text-left"> 
+            In my first role, I delved into information systems, from client interactions to server connectivity. I gained foundational knowledge and hands-on experience with analysis tools, honing professional writing and communication skills. Emphasizing teamwork, I collaborated with key stakeholders. </p>           
             <div className="text-mm text-left">
                 <div className="text-base font-bold mt-4">
                     Project:

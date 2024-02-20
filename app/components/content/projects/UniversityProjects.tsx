@@ -35,6 +35,7 @@ function UniversityProjects() {
                     Data Analyst for the 'Jerusalem Of Digital' project 
                     </h2>
                     <h3 className="mb-4 text-lg text-white">June 2022 to October 2023</h3>
+                    <h1 className="text-decoration-line: underline"> <em>Background</em> </h1>
                     <div className="text-mm mt-2 ">
                     The challenges faced by small traditional businesses in adapting to the digital world were exacerbated by the COVID-19 pandemic, leading to closures while larger companies seized unexpected opportunities. Recognizing this trend, the Jerusalem Municipality initiated a project to digitalize small businesses in the city. the municipality collaborated with the Department of Industrial Engineering and Management at Azrieli College to address past failures. Through the "Jerusalem of Digital" initiative, students provided personalized support to businesses, including website development and marketing strategies, aiming to empower owners to operate their online presence independently.
                         <ul style={{ listStyleType: 'disc' }} className="ml-8 mt-3">
@@ -104,6 +105,7 @@ function UniversityProjects() {
                     Inventory management system for Lightricks
                     </h2> 
                     <h3 className="mb-4 text-lg text-white">August 2021 to March 2023</h3>
+                    <h1 className="text-decoration-line: underline" > <em> Background</em> </h1>
                     <div className="text-mm">
                     This project focuses on creating an inventory management system for small-medium businesses (SMBs). While large companies already have extensive platforms for their needs, SMBs lack the financial resources for such solutions. This project aims to address these gaps by offering tailor-made solutions for B2B, B2C, and B2G business models of small companies. By understanding the distinct needs and planning systems of SMBs, this project strives to provide an accessible and effective inventory management solution to Lightricks company.
                         <ul style={{ listStyleType: 'disc' }} className="ml-8 mt-3"> 
@@ -147,6 +149,7 @@ function UniversityProjects() {
                     Engineered a BI dashboard for 'Walmart' 
                     </h2>
                     <h3 className="mb-4 text-lg text-white">Symmetrical project, developed during 2023</h3>
+                    <h1 className="text-decoration-line: underline"> <em>Background</em> </h1>
                     <div className="text-mm mt-2 ">
                     Created a Power BI dashboard to showcase essential strategies aimed at improving company efficiency.
                         <ul style={{ listStyleType: 'disc' }} className="ml-8 mt-3">

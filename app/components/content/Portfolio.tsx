@@ -14,11 +14,11 @@ function Portfolio() {
         },
         {
             title: 'Education',
-            description: 'Studied Industrial Engineering at Azrieli - College of Engineering. Here I learned the fundamentals about the world of Information Systems and how as an industrial enginerr i need to integrating the different disciplines to optimize processes across industrie.',
+            description: 'Studied Industrial Engineering at Azrieli - College of Engineering. Here I learned the fundamentals about the world of Information Systems and how as an industrial engineering I need to integrating the different disciplines to optimize processes across industrie.',
         },
         {
             title: 'Academic Projects',
-            description: 'One of the strengths I acquired here, is reflected in the teamwork across thr various projects and the parquetical tools i used.',
+            description: 'One of the strengths I acquired here, is reflected in the teamwork across thr various projects and the parquetical tools I used.In addition, my confidence and abilities expanded.',
         },
         {
             title: "Here's a little more about me",
