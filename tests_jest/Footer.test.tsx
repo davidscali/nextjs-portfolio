@@ -27,7 +27,7 @@ describe('Footer', () => {
     it('should render the button contents', () => {
         render(<Footer />);
         const emailButton = screen.getByText('Email Me');
-        const telegramButton = screen.getByText('Telegram');
+        const telegramButton = screen.getByText('WhatsApp');
         const linkedinButton = screen.getByText('LinkedIn');
 
         expect(emailButton).toBeInTheDocument();
@@ -56,8 +56,8 @@ describe('Footer', () => {
 
         expect(onClickMock).toHaveBeenCalled();
     }
-    it('should test the Telegram button', () => {
-        testButtonClick('Telegram');
+    it('should test the WhatsApp button', () => {
+        testButtonClick('WhatsApp');
     });
     it('should test the LinkedIn button', () => {
         testButtonClick('LinkedIn');

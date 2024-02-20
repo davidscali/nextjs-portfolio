@@ -12,7 +12,7 @@ function VideoPlayer() {
     <div>
       <iframe
         title="http server Video 1"
-        src="http://127.0.0.1:8080/university/Inventory_System.mp4"
+        src="https://vnogecem2sozqdxb.public.blob.vercel-storage.com/VidoePlayerBlog/Inventory_System-fJtQr9ScgWgwtZDvwmT89U519zcN9h.mp4"
         width="670"
         height="490"
         className='rounded-xl mt-9'
@@ -30,7 +30,7 @@ function VideoPlayer() {
 
         <iframe
         title="http server Video 2"
-        src="http://127.0.0.1:8080/university/dama_final.mp4"
+        src="https://vnogecem2sozqdxb.public.blob.vercel-storage.com/VidoePlayerBlog/dama_final-2PVKFHbLhRbi2U0vwkBowBxWkXZGOj.mp4"
         width="670"
         height="490"
         className='rounded-xl mt-9'

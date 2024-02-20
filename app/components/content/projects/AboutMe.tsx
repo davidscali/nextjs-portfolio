@@ -26,7 +26,8 @@ function AboutMe() {
                 <li style={{ position: "relative" }}>   
                 <div className="text-base mt-4">
                 <span style={{ position: "absolute", left: "-30px", top: "5px" }}>▶</span>
-                I'm passionate about transforming data into meaningful insights, but when I'm not immersed in numbers, you'll often find me hitting the pavement for a run. Running a few times a week helps me clear my head and recharge.                </div>
+                I'm passionate about transforming data into meaningful insights, but when I'm not immersed in numbers, you'll often find me take a break and go out to run. Running a few times a week helps me to clear my head and recharge. 
+                </div>
                 </li>
              </ul>
              </div>
@@ -46,7 +47,7 @@ function AboutMe() {
                                 alt="CalmDown"
                                 width={5000}
                                 height={0}
-                                className='w-[100px] absolute top-[245px] right-[200px]  rounded-xl mt-4 opacity-100 border-2 border-gray-400'
+                                className='w-[100px] absolute top-[220px] right-[340px]  rounded-xl mt-4 opacity-100 border-2 border-gray-400'
                                 draggable={false}
                                 priority={true}
                             />                 
@@ -77,7 +78,7 @@ function AboutMe() {
             <div className="text-mm text-left">
             <ul className="ml-6">
                 <li style={{ position: "relative" }}>   
-                    <div className="text-base mt-4">
+                    <div className="text-base mt-4 font-bold ">
                     <span style={{ position: "absolute", left: "-30px", top: "5px" }}>▶</span>
                     I have an immense passion for the fascinating intricacies of the animal kingdom. Delving into the behaviors of animals - captivate me.
                     </div>
@@ -95,7 +96,7 @@ function AboutMe() {
                                 alt="National"
                                 width={5000}
                                 height={0}
-                                className='w-[180px] absolute top-[680px] right-[180px]  rounded-xl mt-4 opacity-100 border-2 border-gray-400'
+                                className='w-[180px] absolute top-[680px] right-[320px]  rounded-xl mt-4 opacity-100 border-2 border-gray-400'
                                 draggable={false}
                                 priority={true}
                             />                     
@@ -105,9 +106,9 @@ function AboutMe() {
                             <Image
                                 src={National.src}
                                 alt="National"
-                                width={2000}
+                                width={5000}
                                 height={0}
-                                className='w-full h-auto rounded-xl'
+                                className='w-[100px] absolute top-[680px] right-[320px] rounded-xl  border-2 border-gray-400'
                                 draggable={false}
                                 priority={true}
                             />
