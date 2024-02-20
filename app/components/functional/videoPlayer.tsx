@@ -7,7 +7,7 @@ function VideoPlayer() {
     // const handlePlay = () => {
     //     setShowPoster(false); // Hide the poster when the video starts playing
     // };
-
+//
   return (
     <div>
       <iframe
