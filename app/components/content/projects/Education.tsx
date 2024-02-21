@@ -14,13 +14,13 @@ function Education() {
             <div className="text-mm text-left">
                 <ul style={{ listStyleType: 'square' }} className="ml-6">
                     <li>
-                        <div className="text-base font-bold mt-4">
+                        <div className="text-lg font-bold mt-4">
                         Azrieli College of Engineering, Jerusalem, Israel
                         </div>
-                        <div className="text-base font-bold mt-4">
+                        <div className="text-lg font-bold mt-4">
                             Degree:
                         </div>
-                        <ul style={{ listStyleType: 'disc' }} className="ml-6">
+                        <ul style={{ listStyleType: 'disc' }} className="text-lg ml-6">
                             <li>BSc in <strong>Industrial Engineering & Management</strong></li>
                         </ul>
                         <div className="text-base font-bold mt-4">

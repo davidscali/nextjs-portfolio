@@ -8,6 +8,7 @@ import Button from '@ui/Button';
 import CalmDown from "public/aboutme/Kepp_Calm.png";
 import TheBest from "public/aboutme/thebest.jpg";
 import National from"public/aboutme/National.png";
+import Latet from "public/aboutme/Latet.png";
 
 function AboutMe() {
 
@@ -21,6 +22,53 @@ function AboutMe() {
         ">
             <h1 className="text-3xl text-left text-white font-bold">More about me</h1>
             <br />
+            <div className="text-lg  font-bold mt-4">
+            My Volunteering Journey
+            </div>
+            <div className="text-mm font-bold text-left">
+             <ul className="ml-6">
+                <li style={{ position: "relative" }}>   
+                <div className="text-base mt-4">
+                <span style={{ position: "absolute", left: "-30px", top: "5px" }}>▶</span>
+                Over the last four years, I have volunteered to manage the Jerusalem area as part of an amazing project with the 'Latet' organization.
+                As part of my volunteering efforts, I participate every Passover and Rosh Hashanah, working hand in hand with various volunteers to collect food for people from disadvantaged populations.
+                <p className='mt-4'>
+                I am continually thrilled to rediscover that there are good people who take care of all segments of the population regardless of race, religion, or gender.
+                </p>
+                </div>
+                </li>
+             </ul>
+             </div>
+             {!isMobile ? ( //desktop
+                        <div className={`img-desktop max-w-2xl mx-auto mt-9 flex justify-center items-center`}>
+                            <Image
+                                src={Latet.src}
+                                alt="Latet"
+                                width={5000}
+                                height={0}
+                                className='w-[500px] h-auto rounded-xl'
+                                draggable={false}
+                                priority={true}
+                            />                     
+                        </div>
+                    ) : ( //mobile
+                        <div className={`img-mobile max-w-full`}>
+                            <Image
+                                src={Latet.src}
+                                alt="Latet"
+                                width={2000}
+                                height={0}
+                                className='w-full h-auto rounded-xl'
+                                draggable={false}
+                                priority={true}
+                            />
+                        </div>
+                    )}
+
+
+             <div className="text-lg font-bold mt-4">
+             My passion for running
+            </div>
             <div className="text-mm font-bold text-left">
              <ul className="ml-6">
                 <li style={{ position: "relative" }}>   
@@ -32,13 +80,13 @@ function AboutMe() {
              </ul>
              </div>
              {!isMobile ? ( //desktop
-                        <div className={`img-desktop max-w-2xl mx-auto mt-9`}>
+                        <div className={`img-desktop max-w-2xl mx-auto mt-9 flex justify-center items-center`}>
                             <Image
                                 src={TheBest.src}
                                 alt="TheBest"
                                 width={5000}
                                 height={0}
-                                className='w-[500px] h-auto -center rounded-xl'
+                                className='w-[500px] h-auto rounded-xl'
                                 draggable={false}
                                 priority={true}
                             />                     
@@ -47,7 +95,7 @@ function AboutMe() {
                                 alt="CalmDown"
                                 width={5000}
                                 height={0}
-                                className='w-[100px] absolute top-[220px] right-[340px]  rounded-xl mt-4 opacity-100 border-2 border-gray-400'
+                                className='w-[100px] absolute top-[875px] right-[250px] rounded-xl mt-4 opacity-100 border-2 border-gray-400'
                                 draggable={false}
                                 priority={true}
                             />                 
@@ -90,13 +138,13 @@ function AboutMe() {
             </li> 
             </ul>    
              {!isMobile ? ( //desktop
-                        <div className={`img-desktop max-w-2xl mx-auto mt-9`}>
+                        <div className={`img-desktop max-w-2xl mx-auto mt-10 flex`}>
                             <Image
                                 src={National.src}
                                 alt="National"
                                 width={5000}
                                 height={0}
-                                className='w-[180px] absolute top-[680px] right-[320px]  rounded-xl mt-4 opacity-100 border-2 border-gray-400'
+                                className='w-[180px] absolute top-[1330px] right-[220px] rounded-xl mt-4 opacity-100 border-2 border-gray-400'
                                 draggable={false}
                                 priority={true}
                             />                     
