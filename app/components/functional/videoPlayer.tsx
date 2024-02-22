@@ -10,8 +10,7 @@ function VideoPlayer() {
         title="YouTube video player 1"
         //src="https://vnogecem2sozqdxb.public.blob.vercel-storage.com/VidoePlayerBlog/Inventory_System-fJtQr9ScgWgwtZDvwmT89U519zcN9h.mp4"   
         //src="http://62.90.88.25:8080/home/cohenscalida/public_html/dama_final.mp4"
-        //src="http://127.0.0.1:8080/university/Inventory_System.mp4" 
-        
+        //src="http://127.0.0.1:8080/university/Inventory_System.mp4"
         src="https://www.youtube.com/embed/jZhaihT_EAg?si=cRlIgQYhwndb30e6" 
         width="670"
         height="490"

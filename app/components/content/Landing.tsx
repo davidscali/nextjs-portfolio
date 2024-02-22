@@ -34,6 +34,7 @@ function Landing() {
         { type: 'main', content: 'Email Me', onClick: () => window.location.href = 'mailto:scali0506@gmail.com' },
     ];
 
+
     const isMobile = useIsMobile();
 
     return (
@@ -99,7 +100,7 @@ function Landing() {
                 <div className="landing-subtitle mt-12 text-sm opacity-70 font-light max-w-full flex flex-wrap">
                     {technologies.map((tech, index) => (
                         <React.Fragment key={tech}>
-                            {index > 0 && <span className="divider mx-2 opacity-50">/</span>}
+                            {index > 0 && <span className="divider mx-3 opacity-50">/</span>}
                             {tech}
                         </React.Fragment>
                     ))}
