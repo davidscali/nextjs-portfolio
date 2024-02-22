@@ -9,8 +9,8 @@ import { useEffect, useState } from 'react';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "DavidScali",
-    description: "Portfolio Website, made by David credit to Yang // yangxdev",
+    title: "David Cohen Scali",
+    description: "Portfolio Website",
 };
 
 export default function RootLayout({

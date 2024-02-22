@@ -21,7 +21,7 @@ function Portfolio() {
             description: 'One of the strengths I acquired here, is reflected in the teamwork across thr various projects and the parquetical tools I used.In addition, my confidence and abilities expanded.',
         },
         {
-            title: "Here's a little more about me",
+            title: "More about me",
             description: 'Let me share a bit about myself and what I enjoy doing outside of work!',
         },
     ];

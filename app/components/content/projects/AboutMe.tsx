@@ -15,7 +15,7 @@ function AboutMe() {
     const isMobile = useIsMobile();
 
     return (
-        <div id="Here's a little more about me" className="About me max-w-5xl py-20 border-b select-none border-slate-700 
+        <div id="More about me" className="About me max-w-5xl py-20 border-b select-none border-slate-700 
             mx-6
             md:mx-20
             lg:mx-40
