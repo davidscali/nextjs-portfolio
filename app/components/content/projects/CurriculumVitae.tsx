@@ -29,7 +29,7 @@ function CurriculumVitae() {
                     <embed src="https://nextjs-cv-main.vercel.app/" style={{ width: '80vw', height: '111.6vh' }} />
                 ) : (
                     <> 
-                        <Button type="main" content="View CV" onClick={() => window.open('https://nextjs-cv-main.vercel.app/')} />
+                        <Button type="main" content="View CV Website" onClick={() => window.open('https://nextjs-cv-main.vercel.app/')} />
                         <div className="mx-2"></div>
                         <Button type="main" content="View Repository" onClick={() => window.open('https://github.com/davidscali/nextjs-cv-main')} />
                         <div className="mr-4"></div>
@@ -39,7 +39,7 @@ function CurriculumVitae() {
             </div>
             {!showCV && !isDesktop && (
                 <div className="text-left text-md my-4 flex items-center">
-                    <Button type="main" content="View CV" onClick={() => setShowCV(true)} />
+                    <Button type="main" content="View CV Website" onClick={() => setShowCV(true)} />
                     <div className="mr-4">Interested in how I made this? Check out the GitHub project!</div>
                     <Button type="main" content="View Repository" onClick={() => window.open('https://github.com/davidscali/nextjs-cv-main')} />
                     <div className="mr-4"></div>

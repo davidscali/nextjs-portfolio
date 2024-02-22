@@ -87,6 +87,7 @@ export default function CoverLetterMaker() {
                 {/* <input type="text" className={inputField} ref={inputSchool} placeholder="Enter your school" onChange={handleInputChange} /> */}
                 {/* <input type="text" className={inputField} ref={inputExperience1} placeholder="Enter your 1st experience" onChange={handleInputChange} /> */}
                 {/* <input type="text" className={inputField} ref={inputExperience2} placeholder="Enter your 2nd experience" onChange={handleInputChange} /> */}
+                
             </div>
             <div className="flex justify-center mt-4">
                 <Button type="generate" content="Generate" onClick={getCvText} disabled={isButtonDisabled} />

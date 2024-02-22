@@ -126,7 +126,7 @@ function AboutMe() {
             <div className="text-mm text-left">
             <ul className="ml-6">
                 <li style={{ position: "relative" }}>   
-                    <div className="text-base mt-4 font-bold ">
+                    <div className="text-base mt-8 font-bold ">
                     <span style={{ position: "absolute", left: "-30px", top: "5px" }}>▶</span>
                     I have an immense passion for the fascinating intricacies of the animal kingdom. Delving into the behaviors of animals - captivate me.
                     </div>
