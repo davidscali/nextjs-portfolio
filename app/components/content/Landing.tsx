@@ -63,14 +63,14 @@ function Landing() {
 
             <div className="landing-text z-1">
                 <div className="landing-text-primary text-xl lg:text-3xl">
-                    Hi, I&apos;m <span className="text-primary font-bold"> David</span>, 
-                   <p> a Data Analyst with a strong passion for creating </p>
+                    Welcome to my Profitolio, I&apos;m <span className="text-primary font-bold"> David</span> 
+                   <p>Data Analyst with strong passion for creating </p>
                     <p>  data-driven insights and leading end-to-end projects. </p>
                 </div>
-                <div className="landing-text-secondary mt-4 text-md font-normal">
-                <p>   Currently I&apos;m working as a Data Analyst at {"  "} 
+                <div className="landing-text-secondary text-lg mt-4 text-md font-normal">
+                <p>   Currently I&apos;m working as a Data Analyst at the {"  "} 
                  <span className="text-accent font-semibold">Prime Minister's Office</span>,</p>
-                <p> where I bring innovative solutions to life through data and creativity. </p>
+                <p> where I create innovative solutions to life through data and creativity. </p>
                 </div>
             </div>
             <div className={`landing-buttons flex max-w-max flex-col mt-8`}>

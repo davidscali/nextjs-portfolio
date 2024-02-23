@@ -34,7 +34,7 @@ function PrimeMinisterOffice() {
 
                 <div className="text-base font-bold mt-4">Details:</div>
                 <ul style={{ listStyleType: 'disc' }} className="ml-6">
-                    <li>constructed and developed control indicators using Python and Excel.</li>
+                    <li>Constructed and developed control indicators using Python and Excel.</li>
                     <li>Utilized Agile methodology to analyze and characterize Information Systems within the governmental Portal,</li>
                     <p>Drafted mockups and functional documents.</p>
                     <li>Developed surveys and control criteria in Excel to optimize task allocation across various offices,</li>

@@ -10,7 +10,7 @@ function Portfolio() {
         },
         {
             title: 'The Hebrew Language Academy',
-            description: 'My first industry footprint. I learned the mindset of a business and how to think outside the box, The significance of cooperation and building relationships with Hebrew professors for digital endeavors. ',
+            description: 'My first industry footprint. I learned the mindset of a running business and the importance of thinking outside the box. Also, the significance of cooperation and building relationships with Hebrew professors for digital endeavors. ',
         },
         {
             title: 'Education',

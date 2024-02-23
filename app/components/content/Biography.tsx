@@ -21,15 +21,16 @@ function Biography() {
                 <div className="biography-text-col1 text-base
                 md:mr-10
                 ">
-                    <p>
+                    <p className="text-lg" >
                         <strong>Academic Journey</strong><br />
-                        Completing my Bachelor's degree was a pivotal milestone in my journey. As an <em>industrial and management engineer</em>, I came to appreciate how the synergy between people and technology defines our era. Through my specialization in information systems, I acquired invaluable knowledge and skills that I applied across a spectrum of technological platforms    
+                        Completing my Bachelor's degree was a pivotal milestone in my journey. As an <em> industrial and management engineer </em> I believe that for creating meaningful solution, that can stand for a long time, you have to hold both tools; technological thinking and understanding social human behavior. <br/>
+                        <p className='mt-3'>Through my specialization in information systems, I acquired invaluable knowledge and skills that I applied across a spectrum of technological platforms </p>   
                     </p>
 
-                    <p>
+                    <p className="text-lg">
                         <br />
                         <strong>Current Job</strong><br />
-                        As a Data Analyst, I am eager to create value from data. I am currently working at Prime Minister's Office where I contribute through analyses to ensure equitable representation of diverse populations in the civil service. 
+                        As a Data Analyst, I am eager to create value from data. I am currently working at the Prime Minister's Office where I contribute through analyses to ensure equitable representation of diverse populations in the civil service. 
                     </p>
 
                     <div className="text-base my-4">

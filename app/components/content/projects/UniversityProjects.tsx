@@ -71,7 +71,7 @@ function UniversityProjects() {
                             <Image
                                 src={JerusalemOfDigital1.src}
                                 alt="Distributed Systems Home Demo GIF 600px"
-                                width={5000}
+                                width={300}
                                 height={0}
                                 className='w-full h-auto rounded-xl'
                                 draggable={false}
@@ -80,7 +80,7 @@ function UniversityProjects() {
                             <Image
                                 src={JerusalemOfDigital2.src}
                                 alt="Disitributed Systems Transfer Demo GIF 600px"
-                                width={5000}
+                                width={300}
                                 height={0}
                                 className='w-full h-auto rounded-xl mt-6'
                                 draggable={false}
@@ -131,15 +131,13 @@ function UniversityProjects() {
                 </div>
             </div>
             <div className="fm-col2 flex-1 flex justify-center mt-9">
-                    {!isMobile ? (           
+                    {!isMobile ? (   //desktop        
                         <div className={`img-desktop max-w-2xl`}>
-                            <VideoPlayer
-                                                      
-                            />
+                            <VideoPlayer/>
                         </div>
-                    ) : (
+                    ) : ( //mobile
                         <div className={`img-mobile max-w-screen`}>
-        
+                            <VideoPlayer/>
                         </div>
                     )}
             </div> 

@@ -2,6 +2,7 @@ import React from 'react';
 import withFadeIn from '@functional/withFadeIn';
 
 function Education() {
+    
     return (
         <div id="Education" className="education max-w-5xl py-20 border-b select-none border-slate-700 
             mx-6
@@ -10,7 +11,7 @@ function Education() {
         ">
             <h1 className="text-3xl text-left text-white font-bold">Education</h1>
             <br />
-            <p className="text-lg text-left"> My educational journey in the field of industrial engineering began at Azrieli College. There I delved into the basics of industry, and learned about the central role of an industrial engineer and management in the Industry 4.0 era. During this period I developed a great interest in information systems, especially in the field of data analysis.Along with my passion for technology and self-learning, I was able to build a solid foundation for my career. </p>
+            <p className="text-lg text-left"> My educational journey in the field of industrial engineering began at Azrieli College. There I delved into the basics of industry, and learned about the central role of an industrial and management engineer in the Industry 4.0 era. During this period I developed a great interest in information systems, especially in the field of data analysis.Along with my passion for technology and self-learning, I was able to build a solid foundation for my career. </p>
             <div className="text-mm text-left">
                 <ul style={{ listStyleType: 'square' }} className="ml-6">
                     <li>

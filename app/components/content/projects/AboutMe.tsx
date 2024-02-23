@@ -80,13 +80,14 @@ function AboutMe() {
              </ul>
              </div>
              {!isMobile ? ( //desktop
-                        <div className={`img-desktop max-w-2xl mx-auto mt-9 flex justify-center items-center`}>
+            //  justify-center items-center
+                        <div className={`img-desktop max-w-2xl mx-auto mt-9 flex`}>
                             <Image
                                 src={TheBest.src}
                                 alt="TheBest"
                                 width={5000}
                                 height={0}
-                                className='w-[500px] h-auto rounded-xl'
+                                className='w-[500px] h-auto justify-left items-left rounded-xl'
                                 draggable={false}
                                 priority={true}
                             />                     
@@ -95,7 +96,7 @@ function AboutMe() {
                                 alt="CalmDown"
                                 width={5000}
                                 height={0}
-                                className='w-[100px] absolute top-[875px] right-[250px] rounded-xl mt-4 opacity-100 border-2 border-gray-400'
+                                className='w-[200px] h-[333px] absolute top-[875px] right-[250px] rounded-xl mt-4 opacity-100 border-2 border-gray-400'
                                 draggable={false}
                                 priority={true}
                             />                 
@@ -105,7 +106,7 @@ function AboutMe() {
                             <Image
                                 src={TheBest.src}
                                 alt="TheBest"
-                                width={2000}
+                                width={300}
                                 height={0}
                                 className='w-full h-auto rounded-xl'
                                 draggable={false}
@@ -114,7 +115,7 @@ function AboutMe() {
                             <Image
                                 src={CalmDown.src}
                                 alt="CalmDown"
-                                width={2000}
+                                width={300}
                                 height={0}
                                 className='w-full h-auto rounded-xl mt-6'
                                 draggable={false}
@@ -144,7 +145,7 @@ function AboutMe() {
                                 alt="National"
                                 width={5000}
                                 height={0}
-                                className='w-[180px] absolute top-[1330px] right-[220px] rounded-xl mt-4 opacity-100 border-2 border-gray-400'
+                                className='w-[180px] absolute top-[1330px] right-[250px] rounded-xl mt-4 opacity-100 border-2 border-gray-400'
                                 draggable={false}
                                 priority={true}
                             />                     
@@ -154,9 +155,9 @@ function AboutMe() {
                             <Image
                                 src={National.src}
                                 alt="National"
-                                width={5000}
+                                width={300}
                                 height={0}
-                                className='w-[100px] absolute top-[680px] right-[320px] rounded-xl  border-2 border-gray-400'
+                                className='w-[100px] w-full h-auto rounded-xl  border-2 border-gray-400'
                                 draggable={false}
                                 priority={true}
                             />

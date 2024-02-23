@@ -37,7 +37,7 @@ function CurriculumVitae() {
                     </>
                 )}
             </div>
-            {!showCV && !isDesktop && (
+            {/* {!showCV && !isDesktop && (
                 <div className="text-left text-md my-4 flex items-center">
                     <Button type="main" content="View CV Website" onClick={() => setShowCV(true)} />
                     <div className="mr-4">Interested in how I made this? Check out the GitHub project!</div>
@@ -46,7 +46,7 @@ function CurriculumVitae() {
                     <Button type="main" content="My Standard CV - PDF" onClick={() => window.open('cv/David Cohen Scali - CV.pdf', '_blank')} />
 
                 </div>
-            )}
+            )} */}
         </div>
     );
 }
