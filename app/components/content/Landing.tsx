@@ -63,7 +63,7 @@ function Landing() {
 
             <div className="landing-text z-1">
                 <div className="landing-text-primary text-xl lg:text-3xl">
-                    Welcome to my Profitolio, I&apos;m <span className="text-primary font-bold"> David</span> 
+                    Welcome to my protfolio, I&apos;m <span className="text-primary font-bold"> David</span> 
                    <p>Data Analyst with strong passion for creating </p>
                     <p>  data-driven insights and leading end-to-end projects. </p>
                 </div>
