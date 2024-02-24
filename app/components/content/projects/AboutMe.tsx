@@ -20,6 +20,7 @@ function AboutMe() {
             md:mx-20
             lg:mx-40
         ">
+            
             <h1 className="text-3xl text-left text-white font-bold">More about me</h1>
             <br />
             <div className="text-lg  font-bold mt-4">

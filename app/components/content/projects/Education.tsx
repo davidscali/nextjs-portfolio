@@ -32,10 +32,10 @@ function Education() {
                         </ul>
                         <div className="text-base font-bold mt-4">Projects: </div>
                         <ul style={{ listStyleType: 'disc' }} className="ml-6">
-                            <li><strong>Data Analyst for the 'Jerusalem Of Digital' project </strong></li>
-                            <li><strong>Built an inventory management system for ‘Lightricks’ company</strong></li>
-                            <li><strong>Engineered a BI dashboard using Power BI for 'Walmart'</strong></li>
-                            <li><strong>Developed a machine learning algorithm in R</strong></li>
+                            <li>Data Analyst for the 'Jerusalem Of Digital' project</li>
+                            <li>Built an inventory management system for ‘Lightricks’ company</li>
+                            <li>Engineered a BI dashboard using Power BI for 'Walmart'</li>
+                            <li>Developed a machine learning algorithm in R</li>
                         </ul>
                         <div className="text-base font-bold mt-4">GPA: 88</div>
                     </li>
