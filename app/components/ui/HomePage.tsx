@@ -17,7 +17,8 @@ import Footer from '@ui/Footer';
 import Header from '@ui/Header';
 import ScrollToTopButton from '@ui/ScrollToTopButton';
 import AboutMe from '../content/projects/AboutMe';
-//import AvatarUploadPage from "@components/upload/page";
+import { Analytics } from '@vercel/analytics/react';
+
 
 //import FrontendMentor from '@/app/components/content/projects/FrontendMentor';
 
@@ -66,7 +67,7 @@ export default function HomePage() {
             <CoverLetterMaker />
             <Footer />
             <ScrollToTopButton />
-            {/* //<AvatarUploadPage /> */}
+            <Analytics />
             {/* <FrontendMentor /> */}
         </div>
     );
