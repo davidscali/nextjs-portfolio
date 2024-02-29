@@ -8,7 +8,7 @@ function TheHebrewAcademy() {
             md:mx-20
             lg:mx-40">
                 
-            <h1 className="text-3xl text-left text-white font-bold">Technical Analyst</h1>
+            <h1 className="text-3xl text-left text-white font-bold">Business Systems Analyst</h1>
             <h2 className="text-2xl text-left text-white font-bold mt-2"> The Hebrew Language Academy</h2>
             <h3 className='text-lg text-left text-white mt-2'> August 2021 - September 2022</h3>
             <br />
