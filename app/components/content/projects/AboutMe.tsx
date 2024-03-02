@@ -158,7 +158,7 @@ function AboutMe() {
                                 alt="National"
                                 width={300}
                                 height={0}
-                                className='w-[100px] w-full h-auto rounded-xl  border-2 border-gray-400'
+                                className='w-[50px] w-full h-auto rounded-xl border-2 border-gray-400'
                                 draggable={false}
                                 priority={true}
                             />

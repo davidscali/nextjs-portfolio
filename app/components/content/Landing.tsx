@@ -44,6 +44,8 @@ function Landing() {
             md:mx-20
             lg:mx-40
         ">
+            {!isMobile ?  ( //Desktop
+            <div>
             <Image
                 src={Logo.src}
                 alt="mylogo1"
@@ -52,6 +54,7 @@ function Landing() {
                 className='absolute w-[3rem] place-self-center -left-[0px] -top-[-30px] h-auto rounded-xl -z-50 opacity-95'
                 draggable={false}
             />
+            
             <Image
                 src={Logophoto.src}
                 alt="myphoto"
@@ -60,6 +63,29 @@ function Landing() {
                 className='absolute w-[11rem] place-self-center -right-[10px] -top-[-85px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
                 draggable={false}
             />
+            </div>
+            ):( //Mobilye
+                <div>
+                <Image
+                src={Logo.src}
+                alt="mylogo1"
+                width={1000}
+                height={0}
+                className='absolute w-[3rem] place-self-center -left-[0px] -top-[-30px] h-auto rounded-xl -z-50 opacity-95'
+                draggable={false}
+            />
+            
+            {/* <Image
+                src={Logophoto.src}
+                alt="myphoto"
+                width={1000}
+                height={0}
+                className='absolute w-[11rem] place-self-center -right-[10px] -top-[-85px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
+                draggable={false}
+            /> */}
+            </div>
+
+            )}
 
             <div className="landing-text z-1">
                 <div className="landing-text-primary text-xl lg:text-3xl">
