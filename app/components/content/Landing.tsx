@@ -45,7 +45,7 @@ function Landing() {
             lg:mx-40
         ">
             {!isMobile ?  ( //Desktop
-            <div>
+            <div > 
             <Image
                 src={Logo.src}
                 alt="mylogo1"
@@ -80,7 +80,7 @@ function Landing() {
                 alt="my logo photo"
                 width={1000}
                 height={0}
-                className='absolute w-[7rem] place-self-center -right-[-190px] -top-[-325px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
+                className='absolute w-[7rem] place-self-center -right-[-120px] -top-[-410px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
                 draggable={false}
             />
             </div>
