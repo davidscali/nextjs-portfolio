@@ -16,7 +16,7 @@ function UniversityProjects() {
     const isMobile = useIsMobile();
 
     return (
-        <div id="Academic Projects" className="university-projects py-20 border-b select-none border-slate-700 flex flex-col
+        <div id="Academic Projects" className="UniversityProjects py-20 border-b select-none border-slate-700 flex flex-col
             max-w-5xl
             mx-6
             md:mx-20
@@ -24,9 +24,7 @@ function UniversityProjects() {
             ">
             <h1 className="text-3xl text-left text-white font-bold">My Projects</h1>
             <br />
-            {/* Having enrolled in a Computer Science degree at the University of Milan-Bicocca, I had the opportunity to work on some interesting projects. Here are the most relevant ones:
-            <br />
-            <br /> */}
+
 
         <div className="fm-row flex flex-col">
             <div className="fm-col2 flex-1 flex justify-center">        
@@ -75,22 +73,22 @@ function UniversityProjects() {
                             />                 
                         </div>
                     ) : ( //mobile
-                        <div className={`img-mobile max-w-full`}>
+                        <div className={`img-mobile-container justify-center mt-9`}>
                             <Image
                                 src={JerusalemOfDigital1.src}
-                                alt="Distributed Systems Home Demo GIF 600px"
+                                alt="JerusalemOfDigital 1 mobile"
                                 width={300}
                                 height={0}
-                                className='w-full h-auto rounded-xl'
+                                className='w-auto h-auto rounded-xl'
                                 draggable={false}
                                 priority={true}
                             />
                             <Image
                                 src={JerusalemOfDigital2.src}
-                                alt="Disitributed Systems Transfer Demo GIF 600px"
+                                alt="JerusalemOfDigital 2 mobile"
                                 width={300}
                                 height={0}
-                                className='w-full h-auto rounded-xl mt-6'
+                                className='w-auto h-auto rounded-xl mt-6'
                                 draggable={false}
                                 priority={true}
                             />

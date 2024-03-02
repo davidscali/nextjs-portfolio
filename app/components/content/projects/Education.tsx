@@ -39,31 +39,6 @@ function Education() {
                         </ul>
                         <div className="text-base font-bold mt-4">GPA: 88</div>
                     </li>
-                    {/* <hr className="mt-4 border-slate-400" />
-                    <li>
-                        <div className="text-base font-bold mt-4">
-                            ITTS &quot;Belluzzi - Da Vinci&quot;, Rimini, Italy
-                        </div>
-                        <div className="text-base font-bold mt-4">
-                            Degree:
-                        </div>
-                        <ul style={{ listStyleType: 'disc' }} className="ml-6">
-                            <li>High School Diploma in <strong>Information Technology</strong></li>
-                        </ul>
-                        <div className="text-base font-bold mt-4">
-                            Time period:
-                        </div>
-                        <ul style={{ listStyleType: 'disc' }} className="ml-6">
-                            <li>September 2015 - July 2020</li>
-                        </ul>
-                        <div className="text-base font-bold mt-4">
-                            Relevant courses:
-                        </div>
-                        <ul style={{ listStyleType: 'disc' }} className="ml-6">
-                            <li>Web Technology</li>
-                            <li>Computer Networking</li>
-                        </ul>
-                    </li> */}
                 </ul>
             </div>
         </div>
