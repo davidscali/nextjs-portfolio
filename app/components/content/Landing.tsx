@@ -68,7 +68,7 @@ function Landing() {
                 <div>
                 <Image
                 src={Logo.src}
-                alt="mylogo1"
+                alt="my logo"
                 width={1000}
                 height={0}
                 className='absolute w-[3rem] place-self-center -left-[0px] -top-[-30px] h-auto rounded-xl -z-50 opacity-95'
@@ -77,10 +77,10 @@ function Landing() {
             
             <Image
                 src={Logophoto.src}
-                alt="myphoto"
+                alt="my logo photo"
                 width={1000}
                 height={0}
-                className='absolute w-[8rem] place-self-center -right-[-290px] -top-[-265px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
+                className='absolute w-[7rem] place-self-center -right-[-190px] -top-[-325px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
                 draggable={false}
             />
             </div>
