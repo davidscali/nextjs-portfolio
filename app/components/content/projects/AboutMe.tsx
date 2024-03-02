@@ -23,10 +23,10 @@ function AboutMe() {
             
             <h1 className="text-3xl text-left text-white font-bold">More about me</h1>
             <br />
-            <div className="text-lg  font-bold mt-4">
+            <div className="text-xl font-bold mt-4">
             My Volunteering Journey
             </div>
-            <div className="text-mm font-bold text-left">
+            <div className="text-lg text-left">
              <ul className="ml-6">
                 <li style={{ position: "relative" }}>   
                 <div className="text-base mt-4">
@@ -53,13 +53,13 @@ function AboutMe() {
                             />                     
                         </div>
                     ) : ( //mobile
-                        <div className={`img-mobile max-w-full`}>
+                        <div className={`img-mobile max-w-full mx-auto mt-9 flex justify-center items-center`}>
                             <Image
                                 src={Latet.src}
                                 alt="Latet"
                                 width={2000}
                                 height={0}
-                                className='w-full h-auto rounded-xl'
+                                className='w-auto h-auto rounded-xl'
                                 draggable={false}
                                 priority={true}
                             />
@@ -67,10 +67,10 @@ function AboutMe() {
                     )}
 
 
-             <div className="text-lg font-bold mt-4">
+             <div className="text-xl font-bold mt-4">
              My passion for running
             </div>
-            <div className="text-mm font-bold text-left">
+            <div className="text-lg text-left">
              <ul className="ml-6">
                 <li style={{ position: "relative" }}>   
                 <div className="text-base mt-4">
@@ -103,38 +103,38 @@ function AboutMe() {
                             />                 
                         </div>
                     ) : ( //mobile
-                        <div className={`img-mobile max-w-full`}>
+                        <div className={`img-mobile max-w-full mx-auto mt-9 flex justify-center items-center`}>
                             <Image
                                 src={TheBest.src}
                                 alt="TheBest"
                                 width={300}
                                 height={0}
-                                className='w-full h-auto rounded-xl'
+                                className='w-[530px] h-auto rounded-xl'
                                 draggable={false}
                                 priority={true}
-                            />
-                            <Image
+                            />   
+                            {/* <Image
                                 src={CalmDown.src}
                                 alt="CalmDown"
                                 width={300}
                                 height={0}
-                                className='w-full h-auto rounded-xl mt-6'
+                                className='w-auto h-auto rounded-xl mt-6'
                                 draggable={false}
                                 priority={true}
-                            />
+                            /> */}
                         </div>
                     )}
 
-            <div className="text-mm text-left">
+            <div className="text-lg text-left">
             <ul className="ml-6">
                 <li style={{ position: "relative" }}>   
-                    <div className="text-base mt-8 font-bold ">
+                    <div className="text-base text-lg mt-8 ">
                     <span style={{ position: "absolute", left: "-30px", top: "5px" }}>▶</span>
                     I have an immense passion for the fascinating intricacies of the animal kingdom. Delving into the behaviors of animals - captivate me.
                     </div>
                 </li>     
              </ul>
-            <ul style={{ listStyleType: 'circle' }} className="ml-6"> 
+            <ul style={{ listStyleType: 'circle' }} className="ml-6 mt-3"> 
              <li>
                 My dream is to utilize cutting-edge data analytics techniques to contribute meaningfully to the sustainable coexistence of marine life in today's world.
             </li> 
@@ -146,19 +146,19 @@ function AboutMe() {
                                 alt="National"
                                 width={5000}
                                 height={0}
-                                className='w-[180px] absolute top-[1330px] right-[250px] rounded-xl mt-4 opacity-100 border-2 border-gray-400'
+                                className='w-[180px] absolute top-[1330px] right-[250px] rounded-xl mt-4 opacity-100 border-2 border-yellow-400'
                                 draggable={false}
                                 priority={true}
                             />                     
                         </div>
                     ) : ( //mobile
-                        <div className={`img-mobile max-w-full`}>
-                            <Image
+                    <div className={`img-mobile max-w-full mx-auto mt-9 flex justify-center items-center`}>
+                    <Image
                                 src={National.src}
                                 alt="National"
                                 width={300}
                                 height={0}
-                                className='w-[50px] w-full h-auto rounded-xl border-2 border-gray-400'
+                                className='w-auto h-auto rounded-xl  border-4 border-yellow-400'
                                 draggable={false}
                                 priority={true}
                             />

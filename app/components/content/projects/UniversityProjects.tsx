@@ -16,15 +16,13 @@ function UniversityProjects() {
     const isMobile = useIsMobile();
 
     return (
-        <div id="Academic Projects" className="UniversityProjects py-20 border-b select-none border-slate-700 flex flex-col
-            max-w-5xl
+        <div id="Academic Projects" className="UniversityProjects max-w-5xl py-20 border-b select-none border-slate-700 
             mx-6
             md:mx-20
             lg:mx-40
-            ">
+        ">
             <h1 className="text-3xl text-left text-white font-bold">My Projects</h1>
             <br />
-
 
         <div className="fm-row flex flex-col">
             <div className="fm-col2 flex-1 flex justify-center">        
@@ -35,7 +33,7 @@ function UniversityProjects() {
                     </h2>
                     <h3 className="mb-4 text-lg text-white">June 2022 to October 2023</h3>
                     <h1 className="text-decoration-line: underline"> <strong><em>Background</em></strong></h1>
-                    <div className="text-mm mt-2 ">
+                    <div className="text-lg mt-2 ">
                     The challenges faced by small traditional businesses in adapting to the digital world were exacerbated by the COVID-19 pandemic, leading to closures while larger companies seized unexpected opportunities. Recognizing this trend, the Jerusalem Municipality initiated a project to digitalize small businesses in the city. the municipality collaborated with the Department of Industrial Engineering and Management at Azrieli College to address past failures.<br/> 
                      <p>Through the "Jerusalem of Digital" initiative, students provided personalized support to businesses, including website development and marketing strategies, aiming to empower owners to operate their online presence independently.</p>
                     
@@ -73,13 +71,13 @@ function UniversityProjects() {
                             />                 
                         </div>
                     ) : ( //mobile
-                        <div className={`img-mobile-container justify-center mt-9`}>
+                        <div className={`img-mobile justify-center item-center mt-9`}>
                             <Image
                                 src={JerusalemOfDigital1.src}
                                 alt="JerusalemOfDigital 1 mobile"
                                 width={300}
                                 height={0}
-                                className='w-auto h-auto rounded-xl'
+                                className='img-mobile w-auto mx-auto mt-9 flex justify-center items-center rounded-xl'
                                 draggable={false}
                                 priority={true}
                             />
@@ -88,7 +86,7 @@ function UniversityProjects() {
                                 alt="JerusalemOfDigital 2 mobile"
                                 width={300}
                                 height={0}
-                                className='w-auto h-auto rounded-xl mt-6'
+                                className='img-mobile w-auto mx-auto mt-9 flex justify-center items-center rounded-xl'
                                 draggable={false}
                                 priority={true}
                             />
@@ -112,7 +110,7 @@ function UniversityProjects() {
                     </h2> 
                     <h3 className="mb-4 text-lg text-white">August 2021 to March 2023</h3>
                     <h1 className="text-decoration-line: underline" > <strong> <em> Background</em> </strong></h1>
-                    <div className="text-mm mt-2">
+                    <div className="text-lg mt-2">
                     This project focuses on creating an inventory management system for small-medium businesses (SMBs). While large companies already have extensive platforms for their needs, SMBs lack the financial resources for such solutions. This project aims to address these gaps by offering tailor-made solutions for B2B, B2C, and B2G business models of small companies. By understanding the distinct needs and planning systems of SMBs, this project strives to provide an accessible and effective inventory management solution to Lightricks company.
                     
                     <div className="text-mm font-bold mt-4">
@@ -158,7 +156,7 @@ function UniversityProjects() {
                     </h2>
                     <h3 className="mb-4 text-lg text-white">Symmetrical project, developed during 2023</h3>
                     <h1 className="text-decoration-line: underline"> <em>Background</em> </h1>
-                    <div className="text-mm mt-2 ">
+                    <div className="text-lg mt-2 ">
                     Created a Power BI dashboard to showcase essential strategies aimed at improving company efficiency.
                     
                     <div className="text-mm font-bold mt-4">

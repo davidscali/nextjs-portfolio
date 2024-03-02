@@ -52,6 +52,7 @@ function CurriculumVitae() {
 }
 
 export default withFadeIn(CurriculumVitae);
+
 // export default CurriculumVitae;
 
 
