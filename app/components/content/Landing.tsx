@@ -127,7 +127,7 @@ function Landing() {
                     </div>
                 </div>
 
-                <div className="landing-subtitle mt-12 text-sm opacity-70 font-light max-w-full flex flex-wrap">
+                <div className="landing-subtitle mt-12 text-mm opacity-80 font-light max-w-full flex flex-wrap">
                     {technologies.map((tech, index) => (
                         <React.Fragment key={tech}>
                             {index > 0 && <span className="divider mx-3 opacity-50">/</span>}

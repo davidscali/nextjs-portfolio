@@ -16,7 +16,8 @@ function UniversityProjects() {
     const isMobile = useIsMobile();
 
     return (
-        <div id="Academic Projects" className="university-projects max-w-5xl py-20 border-b select-none border-slate-700 
+        <div id="Academic Projects" className="university-projects py-20 border-b select-none border-slate-700 flex flex-col
+            max-w-5xl
             mx-6
             md:mx-20
             lg:mx-40
