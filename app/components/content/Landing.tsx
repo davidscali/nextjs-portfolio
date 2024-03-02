@@ -75,14 +75,14 @@ function Landing() {
                 draggable={false}
             />
             
-            {/* <Image
+            <Image
                 src={Logophoto.src}
                 alt="myphoto"
                 width={1000}
                 height={0}
-                className='absolute w-[11rem] place-self-center -right-[10px] -top-[-85px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
+                className='absolute w-[8rem] place-self-center -right-[-290px] -top-[-265px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
                 draggable={false}
-            /> */}
+            />
             </div>
 
             )}
