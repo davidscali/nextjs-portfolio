@@ -144,7 +144,7 @@ function UniversityProjects() {
                             <VideoPlayer/>
                         </div>
                     ) : ( //mobile
-                        <div className={`img-mobile max-w-screen`}>
+                        <div className={`img-mobile`}>
                             <VideoPlayer/>
                         </div>
                     )}
@@ -178,7 +178,7 @@ function UniversityProjects() {
 
                         </div>
                     ) : ( //mobile
-                        <div className={`img-mobile max-w-screen`}>
+                        <div className={`img-mobile`}>
                             <h2>Power BI Dashboard</h2>
                            <DashboardBI
                            /> 
