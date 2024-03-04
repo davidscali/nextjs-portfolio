@@ -42,8 +42,8 @@ function VideoPlayer() {
         <iframe
         title="YouTube video player 1 mobile"
         src="https://www.youtube.com/embed/jZhaihT_EAg?si=cRlIgQYhwndb30e6" 
-        width="540"
-        height="400"
+        width="500"
+        height="360"
         className='img-mobile max-w-full mx-auto mt-9 flex justify-center items-center rounded-xl'
         draggable={false}
         allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -52,8 +52,8 @@ function VideoPlayer() {
         <iframe
         title="YouTube video player 2 mobile"
         src="https://www.youtube.com/embed/cLcdutMCHuA?si=-iQmNqFb6eWPLaEO"
-        width="540"
-        height="400"
+        width="500"
+        height="360"
         className='img-mobile max-w-full mx-auto mt-9 flex justify-center items-center rounded-xl'
         draggable={false}
         allow="fullscreen; mute"

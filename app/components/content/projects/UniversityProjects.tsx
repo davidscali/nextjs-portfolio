@@ -92,7 +92,7 @@ function UniversityProjects() {
                             />
                         </div>
                     )} 
-                    <div className="row mt-5 flex flex-nowrap justify-center">
+                    <div className="row mt-6 flex flex-nowrap justify-center">
                         <Button type="main" content="View More"
                             onClick={() => window.open('https://drive.google.com/drive/folders/1zV_xHsKqJx8KmzKhQwPPvoO39vjXbGFr?usp=sharing')
                             } />
