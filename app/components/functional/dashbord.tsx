@@ -30,7 +30,7 @@ function DashboardBI(){
         title="Our Project BI -Walmart for Website" 
         width="480"
         height="290" 
-        className='img-mobile max-w-auto mx-auto mt-9 flex justify-center items-center rounded-xl'
+        className='img-mobile mx-auto mt-9 flex justify-center items-center rounded-xl'
         src="https://app.powerbi.com/view?r=eyJrIjoiODRmYjE2NjQtMGE4NC00ZGQ2LTgyOWUtYzU3NWZmOTNmZmU4IiwidCI6ImU1ZjJmMWZiLTJlZjYtNDQ5Yy1hOGIyLTQzN2I2MDkzYjU5NCIsImMiOjl9" 
         //frameborder="0"
         //allowFullScreen="true"
