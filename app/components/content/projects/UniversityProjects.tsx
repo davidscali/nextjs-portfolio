@@ -77,7 +77,7 @@ function UniversityProjects() {
                                 alt="JerusalemOfDigital 1 mobile"
                                 width={300}
                                 height={0}
-                                className='img-mobile w-auto mx-auto mt-9 flex justify-center items-center rounded-xl'
+                                className='w-auto mx-auto mt-9 flex justify-center items-center rounded-xl'
                                 draggable={false}
                                 priority={true}
                             />

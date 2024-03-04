@@ -146,7 +146,7 @@ function AboutMe() {
                                 alt="National"
                                 width={5000}
                                 height={0}
-                                className='w-[180px] absolute top-[1330px] right-[250px] rounded-xl mt-4 opacity-100 border-2 border-yellow-400'
+                                className='w-[200px] absolute top-[1330px] right-[250px] rounded-xl mt-8 opacity-100 border-2 border-yellow-400'
                                 draggable={false}
                                 priority={true}
                             />                     
@@ -158,7 +158,7 @@ function AboutMe() {
                                 alt="National"
                                 width={300}
                                 height={0}
-                                className='w-auto h-auto rounded-xl  border-4 border-yellow-400'
+                                className='w-[200px] h-auto rounded-xl  border-4 border-yellow-400'
                                 draggable={false}
                                 priority={true}
                             />
