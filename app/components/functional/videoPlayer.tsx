@@ -42,9 +42,9 @@ function VideoPlayer() {
         <iframe
         title="YouTube video player 1 mobile"
         src="https://www.youtube.com/embed/jZhaihT_EAg?si=cRlIgQYhwndb30e6" 
-        width="500"
-        height="360"
-        className='img-mobile mx-auto mt-9 flex justify-center items-center rounded-xl'
+        width="470"
+        height="330"
+        className='img-mobile mt-9 flex justify-center items-center rounded-xl'
         draggable={false}
         allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       ></iframe>
@@ -52,9 +52,9 @@ function VideoPlayer() {
         <iframe
         title="YouTube video player 2 mobile"
         src="https://www.youtube.com/embed/cLcdutMCHuA?si=-iQmNqFb6eWPLaEO"
-        width="500"
-        height="360"
-        className='img-mobile mx-auto mt-9 flex justify-center items-center rounded-xl'
+        width="470"
+        height="330"
+        className='img-mobile mt-9 flex justify-center items-center rounded-xl'
         draggable={false}
         allow="fullscreen; mute"
       ></iframe>
