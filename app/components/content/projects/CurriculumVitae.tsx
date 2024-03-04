@@ -8,11 +8,12 @@ import { useIsDesktop } from '@functional/useIsDesktop';
 function CurriculumVitae() {
 
     const isDesktop = useIsDesktop();
-    const [showCV, setShowCV] = useState(false); // If i want to presnt all the cv in the website in need to remove the next part - **
-
-    const handleCVButtonClick = () => { //-**
-        setShowCV(!showCV); //-** and remove the funcatin name of setshowcv 
-    };
+    //const isMobile = useIsMobile();
+    
+    //const [showCV, setShowCV] = useState(false); // If i want to presnt all the cv in the website in need to remove the next part - **
+    // const handleCVButtonClick = () => { //-**
+    //     setShowCV(!showCV); //-** and remove the funcatin name of setshowcv 
+    // };
 
     return (
         <div id="Curriculum Vitae" className="curriculum-vitae max-w-5xl py-20 border-b select-none border-slate-700
@@ -24,8 +25,8 @@ function CurriculumVitae() {
             <div className="text-left text-mm mb-4">
             I thought it would be beneficial to demonstrate my skills on the curriculum vitae. Teaching myself <strong> React.js  </strong>and <strong>Next.js</strong> allowed me to create a tailored CV, enriching my abilities while producing a unique showcase of my qualifications and experiences. This experience also provided a boost to my sense of competence.
             </div>
-            <div className="flex justify-start">
-                {showCV && isDesktop ? (
+            <div className="flex fm-col2 flex-1 flex justify-center">
+                {!isDesktop ? (
                     <embed src="https://nextjs-cv-main.vercel.app/" style={{ width: '80vw', height: '111.6vh' }} />
                 ) : (
                     <> 
