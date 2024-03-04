@@ -29,7 +29,7 @@ function DashboardBI(){
            <iframe 
         title="Our Project BI -Walmart for Website" 
         width="350"
-        height="160" 
+        height="220" 
         className='img-mobile mt-9 flex justify-center items-center rounded-l'
         src="https://app.powerbi.com/view?r=eyJrIjoiODRmYjE2NjQtMGE4NC00ZGQ2LTgyOWUtYzU3NWZmOTNmZmU4IiwidCI6ImU1ZjJmMWZiLTJlZjYtNDQ5Yy1hOGIyLTQzN2I2MDkzYjU5NCIsImMiOjl9" 
         //frameborder="0"

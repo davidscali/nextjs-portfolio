@@ -27,7 +27,14 @@ function CurriculumVitae() {
             </div>
             <div className="flex fm-col2 flex-1 flex justify-center">
                 {!isDesktop ? (
-                    <embed src="https://nextjs-cv-main.vercel.app/" style={{ width: '80vw', height: '111.6vh' }} />
+                    <div className='mt-4'>
+                    {/* <embed src="https://nextjs-cv-main.vercel.app/" style={{ width: '80vw', height: '111.6vh' }} /> its show my cv in the website */}
+                    <Button type="main" content="View CV Website" onClick={() => window.open('https://nextjs-cv-main.vercel.app/')} />
+                    <div className="mt-3"></div>
+                    <Button type="main" content="View Repository" onClick={() => window.open('https://github.com/davidscali/nextjs-cv-main')} />
+                    <div className="mt-3"></div>
+                    <Button type="main" content="My Standard CV - PDF" onClick={() => window.open('cv/David Cohen Scali - CV.pdf', '_blank')} />
+                    </div>               
                 ) : (
                     <> 
                         <Button type="main" content="View CV Website" onClick={() => window.open('https://nextjs-cv-main.vercel.app/')} />
