@@ -178,7 +178,7 @@ function UniversityProjects() {
 
                         </div>
                     ) : ( //mobile
-                        <div className={`img-mobile`}>
+                        <div className={`img-mobile justify-center`}>
                             <h2>Power BI Dashboard</h2>
                            <DashboardBI
                            /> 
