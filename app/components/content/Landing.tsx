@@ -51,7 +51,7 @@ function Landing() {
                 alt="mylogo1"
                 width={1000}
                 height={0}
-                className='absolute w-[3rem] place-self-center -left-[0px] -top-[-30px] h-auto rounded-xl -z-50 opacity-95'
+                className='absolute w-[3rem] place-self-center -left-[0px] -top-[-30px] h-auto rounded-xl -z-50 opacity-95 ImageClassName'
                 draggable={false}
             />
             
@@ -60,8 +60,9 @@ function Landing() {
                 alt="myphoto"
                 width={1000}
                 height={0}
-                className='absolute w-[11rem] place-self-center -right-[10px] -top-[-85px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
+                className='absolute w-[11rem] place-self-center -right-[10px] -top-[-85px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400 ImageClassName'
                 draggable={false}
+                // className='border-gray-400'
             />
             </div>
             ):( //Mobilye

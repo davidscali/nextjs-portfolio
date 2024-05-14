@@ -6,6 +6,7 @@
     --palette-darkest: #0e0e0e;
     --palette-darker: #111111;
     --palette-white: #fdfdfd;
+    --background-image: url('/logos/background.jpg');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,14 +22,26 @@ body::-webkit-scrollbar {
     /* Safari and Chrome */
 }
 
+.ImageClassName {
+    filter: brightness(140%);
+    border-color: white;
+}
+
 body {
+
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
-
     color: var(--palette-white);
-    background-color: var(--palette-darkest) !important;
+    /* background-color: var(--palette-darkest) !important; */
+
+    /* to set the background-color to black so i need to note all this text below */
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 
 }
 
