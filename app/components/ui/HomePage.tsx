@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import { useMediaQuery } from 'react-responsive';
 import { Toaster } from 'react-hot-toast';
 import { Link as ScrollLink } from 'react-scroll';
 import { useIsDesktop } from '../functional/useIsDesktop';

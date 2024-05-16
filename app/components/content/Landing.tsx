@@ -19,7 +19,8 @@ function Landing() {
         "Html & CSS",
         "Java",
         "Agile Methodologies",
-        "UX (Figma & Axure)"
+        "UX (Figma & Axure)",
+        "Smart Contracts (solidity)",
     ];
 
     const landingButtons: { type: 'main'; content: string; onClick?: () => void }[] = [
@@ -51,7 +52,7 @@ function Landing() {
                 alt="mylogo1"
                 width={1000}
                 height={0}
-                className='absolute w-[3rem] place-self-center -left-[0px] -top-[-30px] h-auto rounded-xl -z-50 opacity-95 ImageClassName'
+                className='ImageClassName absolute w-[3rem] place-self-center -left-[0px] -top-[-30px] h-auto rounded-xl -z-50 opacity-95'
                 draggable={false}
             />
             
@@ -60,7 +61,7 @@ function Landing() {
                 alt="myphoto"
                 width={1000}
                 height={0}
-                className='absolute w-[11rem] place-self-center -right-[10px] -top-[-85px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400 ImageClassName'
+                className='ImageClassName absolute w-[11rem] place-self-center -right-[10px] -top-[-85px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
                 draggable={false}
                 // className='border-gray-400'
             />
@@ -72,7 +73,7 @@ function Landing() {
                 alt="my logo"
                 width={1000}
                 height={0}
-                className='absolute w-[3rem] place-self-center -left-[0px] -top-[-30px] h-auto rounded-xl -z-50 opacity-95'
+                className='ImageClassName absolute w-[3rem] place-self-center -left-[0px] -top-[-30px] h-auto rounded-xl -z-50 opacity-95'
                 draggable={false}
             />
             
@@ -81,7 +82,7 @@ function Landing() {
                 alt="my logo photo"
                 width={1000}
                 height={0}
-                className='absolute w-[7rem] place-self-center -right-[-10px] -top-[-380px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
+                className='ImageClassName absolute w-[7rem] place-self-center -right-[-10px] -top-[-380px] h-auto rounded-xl -z-50 opacity-100 border-4 border-gray-400'
                 draggable={false}
             />
             </div>
@@ -128,7 +129,7 @@ function Landing() {
                     </div>
                 </div>
 
-                <div className="landing-subtitle mt-12 text-mm opacity-80 font-light max-w-full flex flex-wrap">
+                <div className="landing-subtitle mt-12 text-mm opacity-90 font-bold max-w-full flex flex-wrap">
                     {technologies.map((tech, index) => (
                         <React.Fragment key={tech}>
                             {index > 0 && <span className="divider mx-3 opacity-50">/</span>}
