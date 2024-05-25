@@ -18,6 +18,7 @@ export default function Home() {
 
     return (
         <>
+        
             <div className={isTouch ? 'hidden' : ''}>
                 <AnimatedCursor
                     color='240, 240, 240'

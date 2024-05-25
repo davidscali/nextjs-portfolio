@@ -13,14 +13,13 @@ function Landing() {
         "Python - Pandas & Numpy",
         "SQL",
         "Machine Learning - R",
-        "Excel - VBA",
-        "React.js",
-        "Next.js",
+        "React & Next.js",
         "Html & CSS",
-        "Java",
+        "JavaScript & TypeScript",
+        "Smart Contracts (solidity)",
+        "Prompt Engineering",
         "Agile Methodologies",
         "UX (Figma & Axure)",
-        "Smart Contracts (solidity)",
     ];
 
     const landingButtons: { type: 'main'; content: string; onClick?: () => void }[] = [
