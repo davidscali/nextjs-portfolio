@@ -33,7 +33,10 @@ export default function Header() {
                     {menuButtons.map((button, index) => (
                         <React.Fragment key={index}>
                             {index > 0 && <span className={`divider ${isMobile ? 'mx-1' : 'mx-3'} opacity-50 select-none`}>/</span>}
-                            <Button type={button.type} content={button.content} onClick={button.onClick} />
+                            <Button type={button.type}
+                             content={button.content}
+                              onClick={button.onClick} 
+                              />
                         </React.Fragment>
                     ))}
                 </div>

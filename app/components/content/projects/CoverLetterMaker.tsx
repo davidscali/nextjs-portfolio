@@ -78,10 +78,10 @@ export default function CoverLetterMaker() {
             <br />
             <p className="text-center text-white">Fill in the fields below and click on Generate to create your own cover letter!</p>
             <br /> <br />
-            <div className="flex justify-center max-w-6l flex-wrap">
-                <input type="text" className={inputField} ref={inputName} placeholder="Enter your name" onChange={handleInputChange} defaultValue={''} />
-                <input type="text" className={inputField} ref={inputCompany} placeholder="Enter company name" onChange={handleInputChange} defaultValue={''} />
-                <input type="text" className={inputField} ref={inputRole} placeholder="Enter role" onChange={handleInputChange} defaultValue={''} />
+            <div className="flex justify-center max-w-6l flex-wrap text-white font-bold">
+                <input type="text text-white" className={inputField} ref={inputName} placeholder="Enter your name" onChange={handleInputChange} defaultValue={''} />
+                <input type="text text-white" className={inputField} ref={inputCompany} placeholder="Enter company name" onChange={handleInputChange} defaultValue={''} />
+                <input type="text text-white" className={inputField} ref={inputRole} placeholder="Enter role" onChange={handleInputChange} defaultValue={''} />
                 {/* <input type="text" className={inputField} ref={inputDegree} placeholder="Enter your degree" onChange={handleInputChange} /> */}
                 {/* <input type="text" className={inputField} ref={inputCourse} placeholder="Enter your course" onChange={handleInputChange} /> */}
                 {/* <input type="text" className={inputField} ref={inputSchool} placeholder="Enter your school" onChange={handleInputChange} /> */}
