@@ -80,9 +80,10 @@ function UniversityProjects() {
                                 alt="SmartContractLogo 1 mobile"
                                 width={250}
                                 height={150}
-                                className='w-auto mx-auto mt-9 flex justify-center items-center rounded-xl '
+                                className='w-auto mx-auto mt-9 flex justify-center items-center  opacity-100 border-4 border-gray-400 rounded-xl '
                                 draggable={false}
                                 priority={true}
+                                onClick={() => window.open('https://ai-chatbot-website.vercel.app/')}
                             />
                         </div>
                     )} 
