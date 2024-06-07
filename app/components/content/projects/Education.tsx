@@ -22,7 +22,7 @@ function Education() {
                             Degree:
                         </div>
                         <ul style={{ listStyleType: 'disc' }} className="text-lg ml-6">
-                            <li>BSc in <strong>Industrial Engineering & Management</strong></li>
+                            <li>BS.c in <strong>Industrial & Information System Engineering</strong></li>
                         </ul>
                         <div className="text-base font-bold mt-4">
                             Time period:
@@ -32,8 +32,9 @@ function Education() {
                         </ul>
                         <div className="text-base font-bold mt-4">Projects: </div>
                         <ul style={{ listStyleType: 'disc' }} className="ml-6">
+                            <li>Final Project - Developing a Decision Support System for ESCO company</li>
                             <li>Data Analyst for the 'Jerusalem Of Digital' project</li>
-                            <li>Built an inventory management system for ‘Lightricks’ company</li>
+                            <li>Built an inventory management system for Lightricks company</li>
                             <li>Engineered a BI dashboard using Power BI for 'Walmart'</li>
                             <li>Developed a machine learning algorithm in R</li>
                         </ul>

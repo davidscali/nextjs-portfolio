@@ -70,6 +70,7 @@ body {
 [data-rmiz-content="found"] img,
 [data-rmiz-content="found"] svg,
 [data-rmiz-content="found"] [role="img"],
+/* this is for select the text in the website */
 [data-rmiz-content="found"] [data-zoom] {
     cursor: pointer !important;
 }

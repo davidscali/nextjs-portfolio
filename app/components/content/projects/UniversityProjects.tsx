@@ -50,7 +50,7 @@ function UniversityProjects() {
                 </ul>
             </div>
 
-            <h1 className="underline mt-2"><em><strong>Technologies Used</strong></em></h1>
+            {/* <h1 className="underline mt-2"><em><strong>Technologies Used</strong></em></h1>
             <div className="text-lg mt-2">
                 <ul style={{ listStyleType: 'disc' }} className="ml-8 mt-3">
                     <li>MetaMask for wallet integration</li>
@@ -59,7 +59,7 @@ function UniversityProjects() {
                     <li>OpenAI's GPT-3.5-turbo API for natural language processing</li>
                     <li>Prompt engineering techniques for crafting effective conversation prompts</li>
                 </ul>
-            </div>
+            </div> */}
             {!isMobile ? ( //desktop
                         <div className={`img-desktop justify-center items-center mt-9`}>
                             <Image
@@ -109,8 +109,9 @@ function UniversityProjects() {
                     <h2 className="underline"> <strong><em>Background</em></strong></h2>
 
                     <div className="text-lg mt-2 ">
-                    The challenges faced by small traditional businesses in adapting to the digital world were exacerbated by the COVID-19 pandemic, leading to closures while larger companies seized unexpected opportunities. Recognizing this trend, the Jerusalem Municipality initiated a project to digitalize small businesses in the city. the municipality collaborated with the Department of Industrial Engineering and Management at Azrieli College to address past failures.<br/> 
-                     <p>Through the "Jerusalem of Digital" initiative, students provided personalized support to businesses, including website development and marketing strategies, aiming to empower owners to operate their online presence independently.</p>
+                    The COVID-19 pandemic highlighted the struggles of small traditional businesses to adapt to the digital world, In response, the Jerusalem Municipality, in collaboration with Azrieli College's Department of Industrial Engineering and Management, launched the 'Jerusalem of Digital' initiative. This project aimed to digitalize small businesses by providing personalized support, including website development and marketing strategies, empowering owners to manage their online presence independently.
+                    {/* The challenges faced by small traditional businesses in adapting to the digital world were exacerbated by the COVID-19 pandemic, leading to closures while larger companies seized unexpected opportunities. Recognizing this trend, the Jerusalem Municipality initiated a project to digitalize small businesses in the city. the municipality collaborated with the Department of Industrial Engineering and Management at Azrieli College to address past failures.<br/>  */}
+                     {/* <p>Through the "Jerusalem of Digital" initiative, students provided personalized support to businesses, including website development and marketing strategies, aiming to empower owners to operate their online presence independently.</p> */}
                     
                     <div className="mt-4">
                     <h2 className="underline"><em><strong> Key Responsibilities </strong></em></h2>
@@ -186,19 +187,18 @@ function UniversityProjects() {
                     <h3 className="mb-4 text-lg text-white">August 2021 to March 2023</h3>
                     <h1 className="text-decoration-line: underline" > <strong> <em> Background</em> </strong></h1>
                     <div className="text-lg mt-2">
-                    This project focuses on creating an inventory management system for small-medium businesses (SMBs). While large companies already have extensive platforms for their needs, SMBs lack the financial resources for such solutions. This project aims to address these gaps by offering tailor-made solutions for B2B, B2C, and B2G business models of small companies. By understanding the distinct needs and planning systems of SMBs, this project strives to provide an accessible and effective inventory management solution to Lightricks company.
-                    
+                    This project focuses on creating an inventory management system tailored for small and medium-sized businesses (SMBs) at Lightricks. Unlike large companies, SMBs often lack resources for advanced platforms. My project addressed this by creating cost-effective solutions for B2B, B2C, and B2G models, meeting the unique needs of SMBs.                    
                     <div className="text-mm font-bold mt-4">
                         Key Responsibilities
                     </div>
-                        <ul style={{ listStyleType: 'disc' }} className="ml-8 mt-3"> 
+                        <ul style={{ listStyleType: 'disc' }} className="ml-8 mt-4"> 
                             <li>Application development, both client-side and server-side (React, Node.js) </li>
                             <li className="mt-1.5">Development of an algorithm for inventory management</li>
                             <li className="mt-1.5">Drafting characterization documents and functional reports aligned with business requirements.</li>
                             <li className="mt-1.5">Leading a 10-member team in this project </li>
                         </ul>
                     </div>
-                    <div className="row mt-4 flex flex-wrap justify-left">
+                    <div className="row  flex flex-wrap justify-left justify-center mt-7 ">
                         <div className={`button-mobile-wrapper ${isMobile ? 'mb-2' : ''}`}>
                             <Button type="main" content="View Code"
                                 onClick={() => window.open('https://github.com/davidscali/DAMA-application')

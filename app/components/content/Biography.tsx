@@ -23,7 +23,7 @@ function Biography() {
                 ">
                     <p className="text-xl" >
                         <strong className="text-2xl">Academic Journey</strong> <br />
-                        Completing my Bachelor's degree was a pivotal milestone in my journey. As an <em> industrial and management engineer </em> I believe that for creating meaningful solution, that can stand for a long time, you have to hold both tools: technological thinking and understanding social human behavior. <br/>
+                        Completing my Bachelor's degree was a pivotal milestone in my journey. As an <strong> industrial and management engineer </strong> I believe that for creating meaningful solution, that can stand for a long time, you have to hold both tools: technological thinking and understanding social human behavior. <br/>
                         <p className='mt-3 text-xl'>Through my specialization in information systems, I acquired invaluable knowledge and skills that I applied across a spectrum of technological platforms </p>   
                     </p>
 
