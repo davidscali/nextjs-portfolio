@@ -5,7 +5,7 @@ import PortfolioElement from '@ui/PortfolioElement';
 function Portfolio() {
     const experiences = [
         {
-            title: 'Tando',
+            title: 'Tango',
             description: 'As a Marketing Data Analyst, I contribute through analyzing real-time marketing data and uncovering insights on live user behavior to drive data-driven decision-making and optimize marketing performance.',
         },
         {
