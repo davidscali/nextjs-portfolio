@@ -21,16 +21,17 @@ function Biography() {
                 <div className="biography-text-col1 text-base
                 md:mr-10
                 ">
-                    <p className="text-xl" >
-                        <strong className="text-2xl">Academic Journey</strong> <br />
-                        Completing my Bachelor's degree was a pivotal milestone in my journey. As an <strong> industrial and management engineer </strong> I believe that for creating meaningful solution, that can stand for a long time, you have to hold both tools: technological thinking and understanding social human behavior. <br/>
-                        <p className='mt-3 text-xl'>Through my specialization in information systems, I acquired invaluable knowledge and skills that I applied across a spectrum of technological platforms </p>   
-                    </p>
 
                     <p className="text-xl">
                         <br />
                         <strong className="text-2xl">Current Job</strong><br />
-                        As a Data Analyst, I am eager to create value from data. I am currently working at the Prime Minister's Office where I contribute through analyses to ensure equitable representation of diverse populations in the civil service. 
+                        As a Marketing Data Analyst, I am eager to create value from data. I am currently working at Tango where I contribute through analyzing real-time marketing data and uncovering insights on live user behavior to drive data-driven decision-making and optimize marketing performance.
+                    </p>
+
+                    <p className="text-xl my-7" >
+                        <strong className="text-2xl">Academic Journey</strong> <br />
+                        Completing my Bachelor's degree was a pivotal milestone in my journey. As an <strong> industrial and management engineer </strong> I believe that for creating meaningful solution, that can stand for a long time, you have to hold both tools: technological thinking and understanding social human behavior. <br/>
+                        <p className='mt-3 text-xl'>Through my specialization in information systems, I acquired invaluable knowledge and skills that I applied across a spectrum of technological platforms </p>   
                     </p>
 
                     <div className="text-base my-4">

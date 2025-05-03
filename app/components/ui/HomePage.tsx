@@ -17,6 +17,7 @@ import Header from '@ui/Header';
 import ScrollToTopButton from '@ui/ScrollToTopButton';
 import AboutMe from '../content/projects/AboutMe';
 import { Analytics } from '@vercel/analytics/react';
+import Tango from '../content/projects/Tango';
 
 
 //import FrontendMentor from '@/app/components/content/projects/FrontendMentor';
@@ -57,6 +58,7 @@ export default function HomePage() {
             <Landing />
             <Biography />
             <Portfolio />
+            <Tango />
             <PrimeMinisterOffice /> 
             <TheHebrewAcademy />       
             <Education />
@@ -71,3 +73,5 @@ export default function HomePage() {
         </div>
     );
 }
+
+

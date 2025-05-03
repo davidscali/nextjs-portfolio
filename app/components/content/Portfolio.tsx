@@ -5,13 +5,17 @@ import PortfolioElement from '@ui/PortfolioElement';
 function Portfolio() {
     const experiences = [
         {
+            title: 'Tando',
+            description: 'As a Marketing Data Analyst, I contribute through analyzing real-time marketing data and uncovering insights on live user behavior to drive data-driven decision-making and optimize marketing performance.',
+        },
+        {
             title: 'Prime Minister Office',
             description: 'My first job as a Data Analyst. Here I gained invaluable experience in teamwork and delivering high-quality, data-driven insights for informed decision-making.',
         },
-        {
-            title: 'The Hebrew Language Academy',
-            description: 'My first industry footprint. I learned the mindset of a running business and the importance of thinking outside the box. Also, the significance of cooperation and building relationships with Hebrew professors for digital endeavors. ',
-        },
+        // {
+        //     title: 'The Hebrew Language Academy',
+        //     description: 'My first industry footprint. I learned the mindset of a running business and the importance of thinking outside the box. Also, the significance of cooperation and building relationships with Hebrew professors for digital endeavors. ',
+        // },
         {
             title: 'Education',
             description: 'Studied Industrial Engineering at Azrieli - College of Engineering. Here I learned the fundamentals about the world of Information Systems and how as an industrial engineering I need to integrating the different disciplines to optimize processes across industrie.',

@@ -95,8 +95,8 @@ function Landing() {
                     <p>  data-driven insights and leading end-to-end projects. </p>
                 </div>
                 <div className="landing-text-secondary text-lg mt-4 text-md font-normal">
-                <p>   Currently I&apos;m working as a Data Analyst at the {"  "} 
-                 <span className="text-accent font-semibold">Prime Minister's Office</span>,</p>
+                <p>   Currently I&apos;m working as a <span className="text-accent font-semibold">Marketing Data Analyst </span> at the {"  "} 
+                 <span className="text-accent font-semibold">Tango</span>,</p>
                 <p> where I create innovative solutions to life through data and creativity. </p>
                 </div>
             </div>

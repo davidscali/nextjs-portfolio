@@ -74,3 +74,18 @@ body {
 [data-rmiz-content="found"] [data-zoom] {
     cursor: pointer !important;
 }
+
+
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Change 0.4 to control transparency */
+    z-index: -1;
+    pointer-events: none;
+}
+
+
+html {
+    font-size: 17px; /* default is usually 16px, so this adds +1px to everything */
+}
